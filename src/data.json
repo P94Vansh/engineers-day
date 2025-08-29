@@ -1,0 +1,1616 @@
+[
+    {
+        "eventName": "Spectrum",
+        "slug": "spectrum",
+        "actualEventName": "Dance, Singing, Modelling & Cosplay Competition",
+        "clubName": "Core Committee",
+        "eventType": "Non-Technical",
+        "description": [
+            "Spectrum is a cultural extravaganza that celebrates creativity and performance in dance, singing, modelling, and cosplay. The event consists of auditions followed by the final showcase. Participants get a platform to display their unique artistic talents and compete in different categories."
+        ],
+        "eventCoordinators": [
+            [
+                "Ms. Shreya Gupta",
+                "7505054765",
+                "shreyag242004@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Dr. Madhu Kirola",
+                "9897833556"
+            ],
+            [
+                "Dr. Jaspreet Hira",
+                "9560149127"
+            ]
+        ],
+        "eventGuids": [
+            "Auditions are mandatory; shortlisted participants will perform in the final round.",
+            "Categories: Dance (solo/group), Singing (solo/duet), Modelling(team of 6 participants), Cosplay(solo).",
+            "Performances must be within the time limit (Dance/Singing: 3–5 mins, Modelling walk: 3-4 mins, Cosplay presentation: 2–3 mins).",
+            "Participants must bring their own costumes, props, or background tracks.",
+            "Vulgar, offensive, or inappropriate content will lead to disqualification.",
+            "Judges’ decision will be final."
+        ],
+        "auditionDateandTime": [
+            "12th September",
+            "1:30 PM"
+        ],
+        "auditionVenue": "UIT Seminar Hall",
+        "actualDateandTime": [
+            "15th September 2025",
+            "9:30 AM to 1:30 PM"
+        ],
+        "actualVenue": "Auditorium",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Dance": 150,
+                    "Singing": 150,
+                    "Modelling": 100,
+                    "Cosplay": 100
+                }
+            ],
+            [
+                {
+                    "Dance": 400,
+                    "Singing": 250
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Dance": 40,
+                    "Singing": 40,
+                    "Modelling": 25,
+                    "Cosplay": 25
+                }
+            ],
+            [
+                {
+                    "Dance": 100,
+                    "Singing": 65
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Originality (25%)",
+            "Stage Presence & Confidence (25%)",
+            "Technical Skill (Dance/Singing/Modelling/Cosplay) (30%)",
+            "Audience Engagement (20%)"
+        ],
+        "additionalNotes": [
+            "Participants should report at least 30 minutes before their performance.",
+            "Background music tracks must be submitted in advance to the coordinators.",
+            "Winners will be announced at the end of the event."
+        ]
+    },
+    {
+        "eventName": "Vocal Vogue",
+        "slug": "vocal-vogue",
+        "actualEventName": "Open Mic & Talent Hunt",
+        "clubName": "Core Committee",
+        "eventType": "Non-Technical",
+        "description": [
+            "Vocal Vogue is an open mic and talent hunt that provides a platform for students to showcase their talents in singing, poetry, stand-up, storytelling, and other performing arts. The event consists of two rounds:",
+            {
+                "Preliminary Round (Auditions)": "Will be held on 11th September 2025 at UIT Seminar Hall."
+            },
+            {
+                "Final Round": "Selected participants will perform on 15th September near the Tuck Shop."
+            }
+        ],
+        "eventCoordinators": [
+            [
+                "Ms. Diya Srivastava",
+                "8299073582",
+                "diyasrivastava2308@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                " Mr. Jaspreet Hira",
+                "9560149127"
+            ]
+        ],
+        "eventGuids": [
+            "Participants can perform any art form (music, poetry, stand-up, storytelling, etc.) in the time limit given.",
+            "No offensive, discriminatory, or inappropriate content is allowed.",
+            "Background tracks/instruments must be arranged by participants themselves.",
+            "Performances must be original or clearly credited if adapted.",
+            "Time limit per performance: 3–5 minutes (may vary depending on the number of participants).",
+            "Judges’ decision will be final."
+        ],
+        "auditionDateandTime": [
+            "11th September 2025",
+            "1:30 PM"
+        ],
+        "auditionVenue": "UIT Seminar Hall",
+        "actualDateandTime": [
+            "15th September 2025",
+            "1:30 PM to 4:30 PM"
+        ],
+        "actualVenue": "Near Tuck Shop",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet for only Music/Dance"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Vocal": 150
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Vocal": 40
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Originality (30%)",
+            "Stage Presence & Confidence (25%)",
+            "Audience Engagement (20%)",
+            "Technical Skill (singing/poetry/stand-up delivery etc.) (25%)"
+        ],
+        "additionalNotes": [
+            "Shortlisted participants from the auditions will be notified via email/WhatsApp.",
+            "Participants should arrive 15 minutes before their performance slot.",
+            "Results and certificates will be announced after the final round."
+        ]
+    },
+    {
+        "eventName": "Jagga Jasoos",
+        "slug": "jagga-jasoos",
+        "actualEventName": "Treasure Hunt",
+        "clubName": "Vedic club",
+        "eventType": "Non-Technical",
+        "description": [
+            "Rahasya – The Vedic Treasure Hunt is an adventurous clue-solving competition where participants will team up and embark on a thrilling quest inspired by Vedic wisdom and culture. Each team will decode a series of riddles, puzzles, and challenges that will lead them closer to the hidden treasure.Teams will consist of 3–5 participants, who will work together to crack each stage. The hunt will test their logic, teamwork, speed, and knowledge while keeping the excitement alive at every step. The first team to solve all clues and reach the treasure will be declared the winner."
+        ],
+        "eventCoordinators": [
+            [
+                "Ajay Kumar",
+                "6204651414",
+                "kumarajay505414@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Gaurav Thakur",
+                "7536888031"
+            ]
+        ],
+        "eventGuids": [
+            "The event is team-based. Each team must consist of 3–5 participants.",
+            "All participants must register before the event begins.",
+            "Once the hunt starts, no late entries or team changes will be allowed.",
+            "The treasure hunt will be conducted in multiple stages/clues.",
+            "Each clue will lead to the next location or puzzle. Teams must solve clues in sequence.",
+            "Teams are not allowed to skip clues or take shortcuts; doing so will lead to disqualification.",
+            "Participants must not tamper with or damage event materials, clues, or property.",
+            "Any attempt at misconduct, cheating, or seeking external help will result in immediate disqualification.",
+            "Use of mobile phones, the internet, or outside assistance (unless explicitly permitted) is strictly prohibited.",
+            "Participants must follow all instructions from volunteers/organizers during the event.",
+            "Running, pushing, or causing any kind of disorderly conduct will not be tolerated.",
+            "Teams must complete the hunt within the time limit specified.",
+            "The first team to correctly find the final treasure will be declared the winner.",
+            "In case of a tie, winners will be decided based on the time taken and accuracy in solving clues."
+        ],
+        "auditionDateandTime": [
+            "11th September",
+            "1:30 PM"
+        ],
+        "auditionVenue": "UIT Seminar Hall",
+        "actualDateandTime": [
+            "15th September 2025",
+            "1:30 PM to 4:30 PM"
+        ],
+        "actualVenue": "Near Tuck Shop",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Trio",
+            "Quartet",
+            "Quintet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Vocal": 100
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Vocal": 25
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Originality (30%)",
+            "Stage Presence & Confidence (25%)",
+            "Audience Engagement (20%)",
+            "Technical Skill (singing/poetry/stand-up delivery etc.) (25%)"
+        ],
+        "additionalNotes": [
+            "Shortlisted participants from the auditions will be notified via email/WhatsApp.",
+            "Participants should arrive 15 minutes before their performance slot.",
+            "Results and certificates will be announced after the final round."
+        ]
+    },
+    {
+        "eventName": "Kabaddi Championship",
+        "slug": "kabaddi-championship",
+        "actualEventName": "Kabaddi",
+        "clubName": "Sports Committee UIT",
+        "eventType": "Non-Technical",
+        "description": [
+            "This is the event of kabaddi where different universities and departments will take part."
+        ],
+        "eventCoordinators": [
+            [
+                "Naman Jauhari",
+                "8433061125",
+                "namanjauhari06@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Gaurav Kumar",
+                8957763977
+            ]
+        ],
+        "eventGuids": [
+            "Each team has 7 players, the court and typically 5 substitutes.",
+            "Players are swapped in and out during the game.",
+            "Minimum 8 teams of boys and girls are required for the continuity of the tournament otherwise the tournament will be postponed.",
+            "The match usually consists of two halves, each lasting 20 minutes with a 5-minute break.",
+            "Sometimes, shorter formats or different timings are used in various leagues.",
+            "Holds and tackles must follow safe methods; rough or dangerous tackles are penalized.",
+            "Time be penalized for unsportsmanlike conduct or time violations.",
+            "Bring your own kit according to sports",
+            "Referee's decision will be the final decision.",
+            "Team members arguing with the officials will lead to team disqualifications.",
+            "Team member arguing with the officials will lead to team disqualifications.",
+            "Team member arguing with the officials will lead to team disqualifications."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "9:30 AM to 5:00 PM"
+        ],
+        "actualVenue": "University Ground",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Team of 7 with reserved 5"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Sports": 1500
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Sports": 400
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Every game will be a knockout. Highest point will be the winning cause."
+        ],
+        "additionalNotes": [
+            "Referee fees will be applicable.  ",
+            "24 gold medals and 24 silver medals will be needed along with the trophies."
+        ]
+    },
+    {
+        "eventName": "UIT Castle",
+        "slug": "uit-castle",
+        "actualEventName": "E.D. Fun Race",
+        "clubName": "Expressions: The Literary Club UIT",
+        "eventType": "Non-Technical",
+        "description": [
+            "UIT’s Castle is not your usual competition—it’s a rollercoaster of wit, trust, and surprises that will keep you guessing till the very end. Inspired by the madness of Takeshi’s Castle, our version comes with its own thrilling twists.",
+            " A round where the wrong answer might just be the right path forward. Can you trust your instincts when logic seems upside down?",
+            "A spell bee where your vision is gone, and trust becomes your only guide. Spelling isn’t the only    challenge—confidence is.",
+            "A classic childhood favorite, but not as you know it—Red Light, Green Light gets twisted when balance and focus are tested in ways you never expected."
+        ],
+        "eventCoordinators": [
+            [
+                "Himanshi",
+                "7302279003",
+                "workwithshi@gmail.com"
+            ],
+            [
+                "Nikhil kumar",
+                "9458106002",
+                "nikhilkumar9101112@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Dr. Pinki Chugh",
+                9837312241
+            ]
+        ],
+        "eventGuids": [
+            {
+                "Round 1: Not the One (Choose the incorrect Option": [
+                    " You will be presented with multiple options. The twist: the “incorrect” option is the correct answer.",
+                    " Choosing the obvious right answer will get you eliminated.",
+                    " You must lock your answer within the time limit."
+                ]
+            },
+            {
+                "Round 2: Blindfolded Spell Bee": [
+                    "One participant will be blindfolded.",
+                    " A partner can only give hints or clues without spelling the word directly.",
+                    "No touching, gestures, or drawing letters in the air—only verbal hints allowed."
+                ]
+            },
+            {
+                "Round 3:Red Light, Green Light (with a Twist)": [
+                    "At “Green Light” you move, at “Red Light” you must stop *and balance on one leg* until the next signal.",
+                    "If you lose balance, move at the wrong signal, or get caught moving—you have to start from starting line again.",
+                    "The first participants to cross the finish line within rules qualify.",
+                    "No pushing, pulling, or physically disturbing other participants.",
+                    "Blindfolded players must be guided carefully—safety first.",
+                    "Rough behavior = instant disqualification.",
+                    "Respect coordinators and fellow participants at all times."
+                ]
+            }
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "11:30 AM to 1:30 PM"
+        ],
+        "actualVenue": "Ground Floor UIT",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "UITCASTLE": 80
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 150
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "UITCASTLE": 20
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 40
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "he event follows an elimination format. Participants must clear each round by following the rules and completing the challenge successfully. Only those who survive till the final round will be eligible for the title of winner.",
+            "If multiple participants make it to the end, a special tie-breaker mystery challenge will be conducted to decide the ultimate winner.",
+            "Fair play, enthusiasm, and respect for rules are expected at every stage—misconduct may lead to disqualification."
+        ]
+    },
+    {
+        "eventName": "SnapShot",
+        "slug": "snapshot",
+        "actualEventName": "SnapShot-Frame the Moment",
+        "clubName": "Aurora CEC Club",
+        "eventType": "Non-Technical",
+        "description": [
+            "Snapshot is a photography competition aimed at encouraging students to showcase their creativity, storytelling, and visual imagination through the lens. Participants will capture moments that reflect originality, emotions, and perspectives on given themes. This event provides a platform for budding photographers to enhance their skills, learn new techniques, and gain recognition for their artistic talent."
+        ],
+        "eventCoordinators": [
+            [
+                "Sagar Kumar",
+                "9472898704"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Ms. Nandini Prajapati",
+                "7906990867"
+            ]
+        ],
+        "eventGuids": [
+            "Photos must be original and clicked by the participant (no plagiarism).",
+            "Basic editing (brightness, contrast, cropping, color correction) is allowed, but no heavy manipulation or AI-generated images.",
+            "Each participant can submit a maximum of 2 entries.",
+            "The Theme could be anything",
+            "Submissions must be in JPEG/PNG format with a minimum resolution of 1080p.",
+            "File name format: ParticipantName_EntryNumber.",
+            "Late submissions will not be entertained"
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "2:30 PM to 4:30 PM"
+        ],
+        "actualVenue": "Ground Floor UIT",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "UITCASTLE": 80
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 150
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "UITCASTLE": 20
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 40
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Originality (30%)",
+            "Relevance to Theme (20%)",
+            "Technical Quality (Lighting, Composition, Focus) (20%)",
+            "Emotional Impact & Storytelling (20%)",
+            "Overall Presentation (10%)"
+        ],
+        "additionalNotes": [
+            "Top 3 winners will be awarded Certificates + Prizes.",
+            "Best entries will be featured on the official club’s social media page.",
+            "All participants will receive Participation Certificates."
+        ]
+    },
+    {
+        "eventName": "Vijay Ghosh",
+        "slug": "vijay-ghosh",
+        "actualEventName": "Free Fire",
+        "clubName": "Uttaranchal E-Sports Cell",
+        "eventType": "Technical",
+        "description": [
+            "ITINERARY of SQUAD match played by 25 teams in each group, it will be point based round-robin format match:-> 1st Match, 2nd Match, 3rd Match",
+            "Sessions-2(FINALS) :-> Top 6 teams from each group will qualify for the finals. (NOTE:-The top teams may vary according to the registered teams) 1st match 2nd match",
+            "Point Table",
+            "Position 1:- 10points",
+            "Position 2:- 6 points",
+            "Position 3:- 5 points",
+            "Position 4:- 4 points",
+            "Position 5:- 3 points",
+            "Position 6:- 2 points",
+            "Position 7-8:- 1 point",
+            "Position 9-16:-0 points",
+            "Note:- These points may vary according to the teams in group."
+        ],
+        "eventCoordinators": [
+            [
+                "Devansh Gupta",
+                "6399909394",
+                "dg7162924@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Ankit Chamoli",
+                "7310640339"
+            ]
+        ],
+        "eventGuids": [
+            "The team should consist of 4 players (Registered players) only, no extra or substitutes will be allowed.",
+            "Only device (Android /iOS), headphones, charger, power bank & pillow will be allowed in tournament premises.",
+            "Teams will be disqualified if caught cheating, exploiting bugs, ringing or displaying toxic behavior towards other players.",
+            "The teams should be present 1 hour before the commencement of the tournament for head count and placement",
+            "The top 3 teams and MVP in the tournament will be awarded with medals and trophies.",
+            "Each group will consist of 16-24 teams & 6-10 teams will qualify from each group (the top teams may vary according to the teams registered in the evening)",
+            "The minimum requirement for the id for the registration should be level 35 and your rank should be more than platinum V.",
+            "Your phone will be thoroughly checked for hacks and mod files while entering the tournament premises.",
+            "IGL from every team will be representative of their own team and will be responsible for point tally, discrepancy or if they suspect other players for hacking."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "10:30 AM to 1:30 PM"
+        ],
+        "actualVenue": "UIT Computer Lab",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Trio",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Free Fire": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "UITCASTLE": 200
+                }
+            ]
+        ]
+    },
+    {
+        "eventName": "CodeStorm",
+        "slug": "code-storm",
+        "actualEventName": "Hackathon",
+        "clubName": "Uttaranchal University Computer Science Club",
+        "eventType": "Technical",
+        "description": [
+            "CodeStorm is a hackathon aimed at fostering innovation, problem-solving, and teamwork. Participants will be given problem statements related to real-world challenges and will work in teams to design and develop creative software solutions. The event tests coding skills, collaboration, and the ability to deliver a working prototype under time constraints."
+        ],
+        "eventCoordinators": [
+            [
+                "Shreya Gupta",
+                "7505054765",
+                "shreyag242004@gmail.com"
+            ],
+            [
+                "Rajat Balyan",
+                "8448318881",
+                "balyanrajat1812@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Ms. Roosha Shamoon",
+                "9997974144"
+            ]
+        ],
+        "eventGuids": [
+            "Teams must register in advance with team details.",
+            "Teams can select any problem statement.",
+            "Teams can use any programming language, framework, or tool.",
+            "Internet access is allowed, but plagiarism of code will result in disqualification.",
+            "All code must be uploaded/submitted to the designated repository/platform before the deadline.",
+            "Each team must present their solution to the jury at the end.",
+            "The decision of the judges will be final."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "9:30 AM to 4:30 PM"
+        ],
+        "actualVenue": "Room No. 004-005 & 009-010",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Trio",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Hackathon": 500
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Hackathon": 500
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Innovation & Creativity (30%)",
+            "Technical Implementation (30%)",
+            "Practicality & Relevance of Solution (20%)",
+            "Presentation & Teamwork (20%)"
+        ],
+        "additionalNotes": [
+            "Teams should arrive 15 minutes before the event begins.",
+            "Mid-event checkpoints will be conducted to track progress.",
+            "Winners will be announced on the next day."
+        ]
+    },
+    {
+        "eventName": "Vidya Vrith",
+        "slug": "vidya-vrith",
+        "actualEventName": "Technical Quiz",
+        "clubName": "Uttaranchal University Computer Science Club",
+        "eventType": "Technical",
+        "description": [
+            "Vidya Vrith is an online technical quiz competition designed to test students’ knowledge of programming, algorithms, computer science fundamentals, and problem-solving skills. The quiz will consist of MCQs, pseudocode-based questions, and logical problem scenarios, encouraging quick thinking, accuracy, and technical depth."
+        ],
+        "eventCoordinators": [
+            [
+                "Yogesh Chandra Kuniyal",
+                "8126844693",
+                "kuniyalyogesh2023@gmail.com"
+            ],
+            [
+                "Utkarsh Anand",
+                "8292111353",
+                "utkarsh.anand2932@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Ms. Roosha Shamoon",
+                "9997974144"
+            ]
+        ],
+        "eventGuids": [
+            "The quiz will be conducted on an online platform.",
+            "Questions will include MCQs, pseudocode interpretation, output prediction, and conceptual problem-solving.",
+            "Participants must join with their registered email IDs; duplicate entries will be disqualified.",
+            "Use of unfair means (internet search, AI tools, or external help) will lead to immediate disqualification.",
+            "Each question will have a strict time limit. Once submitted, answers cannot be changed.",
+            "Decision of the quizmasters/judges will be final."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "9:30 AM to 1:30 PM"
+        ],
+        "actualVenue": "Seminar Hall",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "VidyaVrith": 80
+                }
+            ],
+            [
+                {
+                    "VidyaVrith": 150
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "VidyaVrith": 20
+                }
+            ],
+            [
+                {
+                    "VidyaVrith": 40
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Accuracy of Answers (50%)",
+            "Speed of Submission (20%)",
+            "Problem-Solving Ability (20%)",
+            "Clarity in Pseudocode/Logic-based Questions (10%)"
+        ],
+        "additionalNotes": [
+            "Participants must log in at least 15 minutes before the event.",
+            "Quiz links will be shared only with registered participants.",
+            "Results will be declared at the end of the event."
+        ]
+    },
+    {
+        "eventName": "IGNITION WAR",
+        "slug": "ignition-war",
+        "actualEventName": "Rocketry Challenge",
+        "clubName": "Aerospace club",
+        "eventType": "Technical",
+        "description": [
+            "The Rocketry Challenge is designed to test participants’ skills in designing, building, and launching model rockets. The event aims to foster innovation, teamwork, and technical expertise in aerospace engineering. Participants must construct a functional rocket that meets the given specifications and successfully launch it to achieve optimal altitude and stability."
+        ],
+        "eventCoordinators": [
+            [
+                "Kritika Singh",
+                "9990833667",
+                "kritikafagna19@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Abhishek Chand Thakuri",
+                "9742319483"
+            ]
+        ],
+        "eventGuids": [
+            "Each team must consist of 3-5 members.",
+            "The rockets should be designed according to the given size and weight constraints.",
+            "Participants must ensure the safe launch and retrieval of their rockets.",
+            "Maximum 50g of Fuel weight is allowed."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "9:30 AM to 11:30 AM"
+        ],
+        "actualVenue": "University Ground",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "IgnitionWar": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "IgnitionWar": 50
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Design & Innovation (30%) – Creativity in rocket design and structure.",
+            "Flight Performance (40%) – Stability, altitude, and trajectory of the rocket.",
+            "Safety Measures (20%) – Adherence to safety protocols and proper handling.",
+            "Presentation (10%) – Explanation of design choices and functionality."
+        ]
+    },
+    {
+        "eventName": "Dronovation",
+        "slug": "dronovation",
+        "actualEventName": "New design of Drone & RC Plane",
+        "clubName": "Aerospace club ",
+        "eventType": "Technical",
+        "description": [
+            " Dronovation is a drone-based competition designed to test participants’ piloting skills, drone maneuverability, and technical innovation. Participants will navigate their drones through a designated course, performing specific tasks such as object retrieval, precision landing, and obstacle avoidance. The event focuses on accuracy, control, and efficiency in drone operations."
+        ],
+        "eventCoordinators": [
+            [
+                "Ujjwal Rana",
+                "9560548456",
+                "jatranaujjwal@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Divij Arora",
+                "8585900434"
+            ]
+        ],
+        "eventGuids": [
+            "Drones must be operated within designated altitude limits.",
+            "Participants must follow all safety instructions provided by event coordinators."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "11:30 AM to 1:30 pm"
+        ],
+        "actualVenue": "University Ground",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Dronovation": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Dronovation": 50
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Navigation & Maneuverability (30%) – How efficiently the drone moves through the course.",
+            "Task Completion (30%) – Accuracy in performing designated tasks.",
+            "Time Efficiency (20%) – Speed in completing the course.",
+            "Safety & Control (20%) – Adherence to safety protocols and smooth handling of the drone."
+        ]
+    },
+    {
+        "eventName": "Hydrophilia",
+        "slug": "hydrophilia",
+        "actualEventName": "Water Treatment Simulation",
+        "clubName": "Nirmaan club",
+        "eventType": "Technical",
+        "description": [
+            "The Water Treatment Simulation event challenges teams to design a filtration system using provided materials. Participants will test their system's efficiency by purifying a sample of dirty water and analyzing the results."
+        ],
+        "eventCoordinators": [
+            [
+                "Rudraksh Sharma",
+                "7303822434",
+                "rudraksh893@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Loknath kumar",
+                "8800858947"
+            ]
+        ],
+        "eventGuids": [
+            "Teams must consist of 2-4 members.",
+            "Participants will be provided with materials (sand, gravel, charcoal and filter paper).",
+            "No additional material is allowed except the material provided by the university.",
+            "The container will not be provided by the university and the shape of the container must be cylindrical (Diameter -10cm to 13cm and Height- 30cm to 50cm)",
+            "Each team will create a water filtration system and test it using a sample of dirty water.",
+            "The filtered water will be tested for clarity, pH balance, and TDS reduction.",
+            "Time limit: 2 hours for setup and 10 minutes for explanation"
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "11:30 AM to 1:30 pm"
+        ],
+        "actualVenue": "1st Floor UIT",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Hydrophilia": 500
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Hydrophilia": 125
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Water clarity & purification (50%) – How clean the filtered water is.",
+            "Efficiency of the filtration process (30%) – Speed and effectiveness.",
+            "Presentation (20%) – How well the process is justified."
+        ]
+    },
+    {
+        "eventName": "Metal Fogging",
+        "slug": "metal-fogging",
+        "actualEventName": "Water Treatment Simulation",
+        "clubName": "UU-MEC",
+        "eventType": "Technical",
+        "description": [
+            "The primary objective of a Metal Forging Design Contest is to encourage and showcase innovative designs that leverage the unique advantages of forging, such as strength, durability, and complex geometries, for various applications."
+        ],
+        "eventCoordinators": [
+            [
+                "Aryan Kumar",
+                "8279684028",
+                "rudraksh893@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Dr. Yashwant Singh Bisht",
+                "9760928017"
+            ],
+            [
+                "Dr. Ruby Pant",
+                "80126732364"
+            ]
+        ],
+        "eventGuids": [
+            "Team Eligibility: Teams of 2 students must design and forge a functional object (as provided in the challenge) using provided steel.",
+            "Materials & Equipment: Only the organizer-supplied steel bar and forging tools (e.g., hammers, anvils, and tongs) may be used; no additional materials or external tools are permitted.",
+            "Forging Process: Teams must heat and shape the steel bar via forging techniques (e.g., hammering, pressing) to create their design; the final product must retain recognizable forged characteristics.",
+            "Design Constraints: The forged object must not exceed specified dimensions or weight and must demonstrate utility or innovation.",
+            "Safety Rules: Participants must wear gloves, goggles, aprons, to handle hot steel with care, and maintain a clean forging area to prevent hazards. ",
+            "Judging Criteria: Entries are scored on creativity (20%), forging technique (30%), functionality (30%), and adherence to rules/safety (20%); penalties apply for damaged tools or unsafe practices.",
+            "Submission & Oversight: Teams submit their forged piece; judges oversee compliance, with decisions final in disputes."
+        ],
+        "actualDateandTime": [
+            "15th September 2025",
+            "11:30 AM to 1:30 pm"
+        ],
+        "actualVenue": "2nd Floor UIT",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "MetalFogging": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "MetalFogging": 50
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Time Completion(20%)",
+            "Shape & Dimensions(40%)",
+            "Functionality(40%)"
+        ]
+    },
+    {
+        "eventName": "Extempore Debate",
+        "slug": "extempore-debate",
+        "actualEventName": "War-tā-lab",
+        "clubName": "Expressions; The Literary Club",
+        "eventType": " Non-Technical",
+        "description": [
+            "War-tā-lab is an extempore debate competition designed like a knockout tournament. Teams will be assigned a motion/topic on the spot and given 2–3 minutes to prepare. Each team will present arguments (For/Against), followed by rebuttals. Winners progress through quarterfinals, semifinals, and finals until the champion team emerges."
+        ],
+        "eventCoordinators": [
+            [
+                "Prashant Yadav",
+                "9634468870",
+                "prashant42vz@gmail.com"
+            ],
+            [
+                "Epsha",
+                "8401164872",
+                "epsha.t2006@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Dr. Pinki Chugh",
+                "9837312241"
+            ]
+        ],
+        "eventGuids": [
+            "Participation is in teams of 4,3,2 or 1.",
+            "Tournament bracket will be knockout style.",
+            "Topics are given 5 minutes before the debate round.",
+            "Each team gets 3 minutes (opening arguments) + 2 minutes (rebuttal).",
+            "No external help (internet/notes) during preparation.",
+            "Use of offensive/derogatory language leads to disqualification.",
+            "Judges' decision is final.",
+            "Late arrival = walkover for the opponent team."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "Seminar Hall, UIT",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet",
+            "Tio",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "War ta lab": 150
+                },
+                {
+                    "War ta lab": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "War ta lab": 40
+                },
+                {
+                    "War ta lab": 50
+                }
+            ]
+        ]
+    },
+    {
+        "eventName": "Group Discussion",
+        "slug": "group-discussion",
+        "actualEventName": "War-tā-lab",
+        "clubName": "Expressions; The Literary Club",
+        "eventType": "Non-Technical",
+        "description": [
+            "War-tā-lab (Group Discussion) is an extempore discussion-based competition where individuals participate in groups and discuss a given topic spontaneously. Each group will consist of 6–8 participants who will be given 2–3 minutes to think before the discussion begins. The GD will last for 10–12 minutes, where participants will be judged on their content, communication, listening, and ability to drive the discussion forward. Top performers from each group advance to the final round."
+        ],
+        "eventCoordinators": [
+            [
+                "Prashant Yadav",
+                "9634468870",
+                "prashant42vz@gmail.com"
+            ],
+            [
+                "Epsha",
+                "8401164872",
+                "epsha.t2006@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Dr. Pinki Chugh",
+                "9837312241"
+            ]
+        ],
+        "eventGuids": [
+            "Participation is individual.",
+            "Each group will have 6-8 participants.",
+            "2 minutes prep time before the discussion begins.",
+            "10-12 minutes discussion time per round.",
+            "Respect others opinions; interruptions should be polite.",
+            "Avoid shouting, personal attacks, or dominating behavior.",
+            "Judges decision will be final.",
+            "Mobile phones or external help are not allowed."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "ClassRoom(s) UIT",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Group Disucussion": 100
+                },
+                {
+                    "Group Disucussion": 150
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Group Disucussion": 100
+                },
+                {
+                    "Group Disucussion": 150
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Content & Argument Strength – 30",
+            "Rebuttal & Counter-arguments – 20",
+            "Clarity & Fluency – 20",
+            "Confidence & Stage Presence – 15",
+            " Time Management – 15"
+        ],
+        "additionalNotes": [
+            "Winning team gets certificate + prize trophy.",
+            "Runners-up get certificates.",
+            "Participation certificates for all."
+        ]
+    },
+    {
+        "eventName": "Colour Splash",
+        "slug": "colour-splash",
+        "actualEventName": "Faces of Colours",
+        "clubName": "Aurora UIT-CEC",
+        "eventType": "Non-Technical",
+        "description": [
+            "Face Painting Competition aims to showcase creativity and imagination through the art of painting on human faces. Participants will use colors, brushes, and other safe materials to create designs based on a given theme. This event encourages teamwork, artistic skills, and innovative thinking. Themes will be announced on the spot to ensure originality and spontaneity."
+        ],
+        "eventCoordinators": [
+            [
+                "Abhay shukla",
+                "9125555684",
+                "Abhaydevji@gmail.com"
+            ],
+            [
+                "Aditi Aggrawal",
+                "9411958145",
+                "aditiagrawal2288@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Ms. Nandini prajapati",
+                "7906990867"
+            ]
+        ],
+        "eventGuids": [
+            "Participants must bring their own colors and brushes (only skin-friendly & washable paints allowed).",
+            "No harmful chemicals or permanent markers are allowed.",
+            "Time limit: 30 min/Team.",
+            "Themes will be provided on the spot.",
+            "Solo participation or team of 2 (one painter + one model).",
+            "Judging based on creativity, theme relevance, neatness, and overall impact."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "Room No. 004",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo",
+            "Duet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Colour Splash": 50
+                },
+                {
+                    "Colour Splash": 100
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Group Disucussion": 50
+                },
+                {
+                    "Group Disucussion": 100
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Originality (30%)",
+            "Relevance to Theme (25%)",
+            "Neatness & Presentation (25%)",
+            "Overall Impact & Innovation (20%)"
+        ]
+    },
+    {
+        "eventName": "Nal Neel",
+        "slug": "nal-neel",
+        "actualEventName": "Bridge Design Challenge",
+        "clubName": "Nirmaan Club",
+        "eventType": "Technical",
+        "description": [
+            "The Bridge Design Challenge is a hands-on structural engineering competition where teams construct a bridge using popsicle sticks and glue. The objective is to create a bridge that balances strength, efficiency, and design aesthetics. The bridges will be tested under load to determine their structural capabilities."
+        ],
+        "eventCoordinators": [
+            [
+                "Shivam Raj Patel",
+                "8409140698",
+                "shivamrajpatelraj@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Ashish Pathani",
+                "9719524227"
+            ]
+        ],
+        "eventGuids": [
+            "Teams must consist of 2-4 members.",
+            "Bridges must be built using only provided materials [popsicle sticks (150 sticks) and glue(fevicol)].",
+            "The bridge must span at least 50 cm and have a minimum width of 5 cm.",
+            "No external reinforcements (such as metal wires or additional adhesives) are allowed.",
+            "The bridge will be tested by placing weights at its mid span until failure.",
+            "Each team gets 3 hours for construction."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "2nd Floor UIT",
+        "eligibility": "Civil and Mechenical Department",
+        "teamSize": [
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Nal Neel": 500
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "Nal Neel": 125
+                },
+                {
+                    "Group Disucussion": 100
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Load-bearing capacity (40%) – Maximum weight the bridge can hold before failure.",
+            "Structural efficiency (30%) – Ratio of weight supported to bridge weight.",
+            "Aesthetic & design (20%) – Neatness, creativity, and adherence to civil engineering principles.",
+            "Presentation & explanation (10%) – Justification of the design approach"
+        ]
+    },
+    {
+        "eventName": "Enginova",
+        "slug": "enginova",
+        "actualEventName": "Unleashing Innovation",
+        "clubName": "UU-MEC",
+        "eventType": "Technical",
+        "description": [
+            "The objective of EngiNova is to give leverage to students to present an innovative idea through model presentation to enhance learning and understanding of a topic through a visual and interactive experience, fostering engagement and skill development."
+        ],
+        "eventCoordinators": [
+            [
+                "Kanishk Bhardwaj",
+                "9259671239",
+                "sharmadevesh790@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Vivek John",
+                "7895168267"
+            ],
+            [
+                "Mr. Saurabh Aggarwal",
+                "9997488532"
+            ]
+        ],
+        "eventGuids": [
+            "Team & Format: Maximum no. of participants per team is 2 to 5.",
+            "Supervision: The team should display their project throughout the event schedule. Failing this the team may be liable for disqualification.",
+            "Gears & Tools: Participants should bring their requirements along with them on the day of the event.",
+            "Scoring: Good design & easy navigation will be the merit criteria.",
+            "Students from any discipline can participate.",
+            "Conduct: The decision of the judges will be final and no sort of disputes will be entertained.",
+            "Supervision & Conduct: Rules may be modified as per the requirement for to the participation."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "UIT Building",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "EngiNova": 100
+                },
+                {
+                    "EngiNova": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "EngiNova": 25
+                },
+                {
+                    "Group Disucussion": 50
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Functionality-40%",
+            "Application-40%",
+            "Presentation-20%"
+        ]
+    },
+    {
+        "eventName": "Cook Without Fire",
+        "slug": "cook-without-fire",
+        "actualEventName": "Women Cell UIT",
+        "clubName": "UU-MEC",
+        "eventType": "Non-Technical",
+        "description": [
+            "A creative cooking competition where participants prepare delicious and innovative dishes without using fire. The event encourages healthy eating, creativity, and teamwork while testing participants’ presentation and culinary skills."
+        ],
+        "eventCoordinators": [
+            [
+                "Kritika Rajput",
+                "8126900157",
+                "kritika1810rajput@gmail.com"
+            ],
+            [
+                "Muskan Sharma",
+                "6287143224",
+                "muskansharma121314p@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mrs. Anuradha Brijwal",
+                "9456374085"
+            ]
+        ],
+        "eventGuids": [
+            "Participants must prepare dishes without using fire or electrical cooking appliances.",
+            "Only raw ingredients, chopping, mixing, blending, and garnishing are allowed.",
+            "Preparation time is limited to the event duration.",
+            "Participants must bring their own ingredients and serving plates.",
+            "Cleanliness and hygiene must be maintained.",
+            "Plagiarism of recipes will lead to disqualification."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "Room No. 005",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Duet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "CookWithoutFire": 70
+                },
+                {
+                    "CookWithoutFire": 100
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "CookWithoutFire": 25
+                },
+                {
+                    "CookWithoutFire": 35
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Innovation (30%)",
+            "Presentation & Plating (25%)",
+            "Taste & Health factor (25%)",
+            "Cleanliness & Hygiene (20%)"
+        ],
+        "additionalNotes":[
+            "Participants must report 15 minutes before the event.",
+            "Results will be announced on the same day."
+        ]
+    },
+    {
+        "eventName": "Kalakriti",
+        "slug": "kalakriti",
+        "actualEventName": "Poster Making Competition",
+        "clubName": "Women Cell UIT",
+        "eventType": "Non-Technical",
+        "description": [
+            "A creative art competition where participants design posters on given themes using their artistic and imaginative skills. The event encourages originality, innovation, and visual communication. Participants can use colors, sketches, and other art materials to create impactful posters."
+        ],
+        "eventCoordinators": [
+            [
+                "Anjana",
+                "6387049975",
+                "kritigupta751@gmail.com"
+            ],
+            [
+                "Shatakshi",
+                "8923439494",
+                "shatakshi7745@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mrs. Anuradha Brijwal",
+                "9456374085"
+            ]
+        ],
+        "eventGuids": [
+            "The topic/theme will be provided on the spot (or announced beforehand).",
+            "Only chart papers and art supplies are to be used — digital posters are not allowed.",
+            "Participants must bring their own materials (colors, brushes, sketch pens, etc.).",
+            "Time limit will be strictly followed.",
+            "Posters must be original and plagiarism will lead to disqualification.",
+            "Participants should maintain cleanliness and discipline."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "Room No. 006",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Solo"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "Kalakriti": 70
+                },
+                {
+                    "Kalakriti": 100
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "kalakriti": 25
+                },
+                {
+                    "kalakriti": 35
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Creativity & Originality (30%)",
+            "Relevance to Theme (25%)",
+            "Visual Impact & Presentation (25%)",
+            "Neatness & Clarity (20%)"
+        ],
+        "additionalNotes":[
+            "Participants must report 15 minutes before the event.",
+            "Results will be announced on the same day."
+        ]
+    },
+    {
+        "eventName": "Sci Life",
+        "slug": "sci-life",
+        "actualEventName": "Model Presentation",
+        "clubName": "Vedic Club",
+        "eventType": "Technical",
+        "description": [ "Sci Life – Vedic & Technical Model Presentation is a competition that encourages participants to design and present models integrating Vedic knowledge with modern technology. The event aims to promote innovation, creativity, and practical applications rooted in cultural wisdom. Models may be static, working, or digital, and must align with the given theme. Each team will present their idea within the allotted time, followed by a Q&A session. Judging will be based on theme relevance, innovation, technical accuracy, and presentation skills."
+        ],
+        "eventCoordinators": [
+            [
+                "Ajay Kumar",
+                "6204651414",
+                "kumarajay505414@gmail.com"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Gaurav Thakur",
+                "7536888031"
+            ]
+        ],
+        "eventGuids": [
+            "Participation can be individual or in teams of 3–5 members.",
+            "Each team must present their own original work. Plagiarism or copying existing models without modification is strictly prohibited.",
+            "Models should align with the theme “Sanskriti to Science: A Journey from Vedas to Vision 2050”",
+            "Models may be working, static, or digital prototypes.",
+            "Maximum setup/display time: 10 minutes per team.",
+            "Presentation time: 7–8 minutes, followed by a 2–3-minute Q&A session.",
+            "Teams must arrange their own special materials, laptops, or equipment (basic tables, electricity, and display boards will be provided).",
+            "The model should be safe, non-hazardous, and environmentally friendly.",
+            "Any multimedia used (slides, videos, etc.) should be free from offensive or inappropriate content.",
+            "Teams must report at least 30 minutes before their slot.",
+            "Participants must maintain discipline and decorum during the event.",
+            "Misbehaviour, tampering with others’ models, or unfair practices will lead to disqualification."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "9:30 AM to 12:30 pm"
+        ],
+        "actualVenue": "UIT Ground Floor",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Duet",
+            "Quintet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "scilife": 150
+                },
+                {
+                    "sciflife": 250
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "scilife": 150
+                },
+                {
+                    "scilife": 250
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Relevance to Theme (15 Marks)",
+            "Innovation & Creativity (20 Marks)",
+            "Technical Knowledge & Accuracy (20 marks)",
+            " Practical Application / Impact (15 marks)",
+            "Presentation & Communication (15 marks)",
+            "Teamwork & Coordination (10 marks)",
+            "Q&A Handling (5 marks)"
+        ],
+        "additionalNotes":[
+            "Winner gets certificate + prize trophy.",
+            " Runner-up gets certificates.",
+            " Participation certificates for all."
+        ]
+    },
+    {
+        "eventName": "Mech War",
+        "slug": "mech-war",
+        "actualEventName": "Mech War – Clash of the Bots",
+        "clubName": "Discipline Committee",
+        "eventType": "Technical",
+        "description": [ "Mech War is an exciting robotics battle competition where student-built bots will compete against each other in a controlled arena. The event tests participants’ engineering skills, creativity, and strategic thinking. The primary goal is to design and build a bot capable of outperforming opponents through power, agility, and innovative design. It’s a thrilling combination of engineering and entertainment, designed to ignite the spirit of innovation among budding technocrats."
+        ],
+        "eventCoordinators": [
+            [
+                "Shubash Roy",
+                "9798851288"
+            ]
+        ],
+        "facultyCoordinators": [
+            [
+                "Mr. Sunil Sharma",
+                "8077881029"
+            ]
+        ],
+        "eventGuids": [
+            "Each team must design and bring its own bot.",
+            "Bots must adhere to the specified size and weight limits (e.g., 30cm x 30cm, max 5 kg).",
+            "Only manual or wireless remote-controlled bots are allowed (no autonomous bots unless specified).",
+            "Use of dangerous weapons like fire, liquids, or explosives is strictly prohibited.",
+            "The arena will be provided by organizers; participants must ensure their bots are safe to operate.",
+            "Match format: 1v1 battles; winner proceeds to next round.",
+            "Time per battle: 3–5 minutes.",
+            "The judges’/referees’ decision will be final."
+        ],
+        "actualDateandTime": [
+            "16th September 2025",
+            "10:00 AM to 3:00 pm"
+        ],
+        "actualVenue": " Mechanical Block Ground / Robotics Arena",
+        "eligibility": "Open to all students",
+        "teamSize": [
+            "Duet",
+            "Quartet"
+        ],
+        "registrationFeesAll": [
+            [
+                {
+                    "mechwar": 150
+                },
+                {
+                    "mechwar":200
+                }
+            ] 
+        ],
+        "registrationFessUIT": [
+            [
+                {
+                    "mechwar":150
+                },
+                {
+                    "mechwar":200
+                }
+            ]
+        ],
+        "judgingCriteria": [
+            "Knocking the opponent out of the arena",
+            "Immobilizing the opponent for 30 seconds",
+            "Points for damage inflicted & aggression",
+            "Technical design & innovation (in special rounds)"
+        ],
+        "additionalNotes":[
+            "Strict safety measures will be followed for both participants and spectators.",
+            "Winners will receive Certificates + Cash Prizes / Trophies.",
+            "The event will be widely covered through photography & social media posts."
+        ]
+    }
+]

@@ -1,103 +1,218 @@
+'use client'
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import React from "react";
+import { BackgroundLines } from "@/components/ui/background-lines";
+import { Button } from "@/components/ui/moving-border";
+import ImageBox from "@/components/CardGuests";
+import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect"
+import { SparklesCore } from "@/components/ui/sparkles";
+import { CardStack } from "@/components/ui/card-stack";
 import Image from "next/image";
-
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const CARDS1 = [
+    {
+      id: 0,
+      src: 'event2.jpg'
+    },
+    {
+      id: 1,
+      src: 'event3.jpg'
+    },
+    {
+      id: 2,
+      src: 'event4.jpg'
+    },
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+  ]
+  const CARDS2 = [
+    {
+      id: 0,
+      src: 'event5.jpg'
+    },
+    {
+      id: 1,
+      src: 'event6.jpg'
+    },
+    {
+      id: 2,
+      src: 'event7.jpg'
+    }
+  ]
+  const CARDS3 = [
+    {
+      id: 0,
+      src: 'event8.jpg'
+    },
+    {
+      id: 1,
+      src: 'event9.jpg'
+    },
+    {
+      id: 2,
+      src: 'event10.jpg'
+    }
+  ]
+
+  const typeWriterPatrons = [
+    {
+      text: "Our",
+    },
+    { text: "Patrons" }
+  ];
+  const points = ['Grand 3-day fest by the Core Committee', 'Mix of technical and non-technical events'
+    , 'Includes several technical events ranging from coding competition torobo wars',
+    'Several Non tech events included from Dj Mixes to soulful singing',
+    'Celebrates creativity, talent, and engineering brilliance',
+    'Platform to learn, compete, network and grow'
+  ]
+  const words = 'Where Innovation meets Elevation'
+  return (
+    <>
+      <BackgroundLines className=" h-screen flex items-center justify-center w-full flex-col px-4">
+        <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
+          Engineers&apos; Day Mahotsav
+        </h2>
+        <TextGenerateEffect words={words} />
+        <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:text-white md:text-2xl lg:text-3xl font-sans py-2 md:pt-10 relative z-20 font-bold tracking-tight">
+          Organised By:
+        </h2>
+        <p className="max-w-xl mx-auto text-md md:text-2xl text-neutral-300 dark:text-white text-center">
+          CORE COMITTEE,UIT
+        </p>
+        <div className="flex gap-5 pt-4 mt-3">
+          <Button
+            borderRadius="1.75rem"
+            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            Technical Events
+          </Button>
+          <Button
+            borderRadius="1.75rem"
+            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            Read our docs
-          </a>
+            Non-Technical Events
+          </Button>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+      </BackgroundLines>
+      <hr className="bg-white h-0.5" />
+      <div className="h-[55rem] w-full rounded-md flex flex-col md:justify-center  antialiased bg-grid-white/[0.02] relative overflow-hidden items-center">
+        <TypewriterEffectSmooth words={[{ text: 'Why' }, { text: "Engineers'" }, { text: "Day?" }]} />
+        <div className="w-full flex px-4 pt-10">
+          <div className="w-[50%] px-3 text-white font-sans text-xl">
+            <strong>Sir Mokshagundam Visvesvaraya</strong> , known as <strong>MOKSH</strong>,
+            was a brilliant Indian engineer and reformer. Born on
+            15th September 1861, he made major contributions in
+            irrigation and dam construction. He was honored with
+            the <strong> BHARAT RATNA </strong> and is remembered for his role in
+            modernizing India.
+          </div>
+          <div className="w-[50%] flex items-center justify-center"> <Image src={'/ed.jpg'} width={250} height={250} alt="image" /> </div>
+        </div>
+        <div className="w-full flex flex-row-reverse px-4">
+          <div className="w-[50%] px-3 text-white font-sans text-xl">
+            <ul>
+              {points.map((point, index) => (
+                <li className="list-disc" key={index}>{point}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="w-[50%] px-10">  <Image src={'/ed2.jpg'} width={400} height={400} alt="image" /> </div>
+        </div>
+
+      </div>
+      <hr className="bg-white h-0.5" />
+      <div className="flex flex-col w-full justify-center items-center">
+        <TypewriterEffectSmooth words={typeWriterPatrons} />
+        <div className="flex md:flex-row flex-col justify-center items-center ">
+          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Shri Jitender Joshi" pos="President,UU" />
+          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Mrs. Anuradha Joshi" pos="Vice President Sushila Devi Center for Professional Studies & Research" />
+
+          <ImageBox src="/vc.jpg" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,UU" />
+        </div>
+        <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
+
+          <ImageBox title="Patron" src="/faculity-3.jpg" name="Prof. Dharam Buddhi" pos="Vice Chancellor,UU" />
+          <ImageBox title="Patron" src="/homebg.jpg" name="Prof. Rajesh Bahuguna" pos="Pro Vice Chancellor,UU" />
+          <ImageBox title="Patron" src="/directorr.jpg" name="Dr. Abhishek Joshi" pos="Executive Director,UU" />
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center items-center">
+        <ImageBox src="/deansir.jpg" title="Convener" name="Prof. (Dr.) Sumit Chaudhary" pos="Director,UIT" />
+        <ImageBox src="/hodmam.jpg" title="Co-Convener" name="Dr. Madhu Kirola" pos="HOD (CSE), UIT" />
+      </div>
+      <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
+        <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />
+      </div>
+      <hr className="bg-white h-0.5" />
+      <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <Image src={'/UuLogo.jpg'} alt="University Logo" width={300} height={300} />
+        <TypewriterEffectSmooth words={[{ text: 'About' }, { text: 'Uttaranchal' }, { text: 'Institute' }, { text: 'Of' }, { text: 'Technology' }]} />
+        <div className="text-white font-serif text-2xl p-3">Uttaranchal Institute of Technology (UIT), established in 2006 in Dehradun, is a premier engineering college under Uttaranchal University. UIT offers industry-aligned B.Tech and M.Tech programs, fostering innovation, research, and leadership. With modern infrastructure, expert faculty, and strong placement records, UIT empowers students to become globally competitive professionals. Its vibrant campus culture and academic excellence make it a top choice for aspiring engineers in Uttarakhand.</div>
+      <div className="w-[40rem] h-40 relative">
+        {/* Gradients */}
+        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+        <SparklesCore
+          background="transparent"
+          minSize={0.4}
+          maxSize={1}
+          particleDensity={1200}
+          className="w-full h-full"
+          particleColor="#FFFFFF"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+
+        {/* Radial Gradient to prevent sharp edges */}
+        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          </div>
+      </div>
+      <hr className="bg-white h-0.5" />
+      <div className="h-[50rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <Image src={'/CoreCommitteeLogo.png'} alt="Core Committe Logo" width={130} height={130} />
+        <TypewriterEffectSmooth words={[{ text: 'What' }, { text: 'Is' }, { text: 'Core' }, { text: 'Committee?' }]} />
+        <div className=" w-full flex justify-center items-center p-7 gap-3">
+          <div className="text-white text-2xl">The Core Committee is the flagship club of UIT, bringing
+            together representatives from all student clubs under
+            one roof. It serves as the central body that plans,
+            coordinates, and executes the flagship fests and major
+            events of UIT. More than just an organizing team, the
+            Core Committee embodies leadership, collaboration,
+            and creativity, ensuring that every event reflects the
+            spirit and excellence of our institute.</div>
+          <Image src={'/ccg.JPG'} alt="Core Committe Group" width={400} height={300} />
+        </div>
+        <div className="w-[40rem] h-40 relative">
+          {/* Gradients */}
+          <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+          <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+          <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+          <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+          <SparklesCore
+            background="transparent"
+            minSize={0.4}
+            maxSize={1}
+            particleDensity={1200}
+            className="w-full h-full"
+            particleColor="#FFFFFF"
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+          {/* Radial Gradient to prevent sharp edges */}
+          <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+        </div>
+      </div>
+      <hr className="bg-white h-0.5" />
+      <div className="w-full flex justify-center items-center">
+        <TypewriterEffectSmooth words={[{ text: 'Past' }, { text: 'Glimpses' }]} />
+      </div>
+      <div className="full flex items-center justify-center gap-20 flex-wrap py-10">
+        <CardStack items={CARDS1} />
+        <CardStack items={CARDS2} />
+        <CardStack items={CARDS3} />
+      </div>
+      <div className="h-20" style={{ backgroundColor: "#f0f0f6" }} />
+      <hr className="bg-white h-0.5" />
+
+    </>
   );
 }
