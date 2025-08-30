@@ -17,7 +17,7 @@ export const metadata = {
     icon:'/favicon.ico'
   },
   title: "Engineers' Day",
-  description: "Engineers' Day Website for Uttaranchal Insitute of Technology Department, Creater to provide details of the events and to register the User.",
+  description: "Engineers' Day Website for Uttaranchal Insitute of Technology Department, Created to provide details of the events and to register the User.",
 };
 
 export default function RootLayout({ children }) {
