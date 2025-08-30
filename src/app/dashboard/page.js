@@ -162,6 +162,7 @@ export default function Dashboard() {
 }
 
 function Table({ data, className, onRefresh, isRefreshDisabled, handleVerify }) {
+  const [active, setActive] = useState(-1);
   if (!data?.length)
     return (
       <div className="w-full rounded p-10 text-2xl text-center dark:text-gray-500 sticky top-0 border dark:border-gray-800 border-gray-50">
@@ -170,7 +171,6 @@ function Table({ data, className, onRefresh, isRefreshDisabled, handleVerify }) 
     );
 
   const headers = Object.keys(data[0]);
-  const [active, setActive] = useState(-1);
 
   const handleActive = (index) => {
     if (index === active) return setActive(-1);
