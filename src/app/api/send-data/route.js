@@ -6,7 +6,9 @@ export async function POST(req) {
     await dbConnect();
 
     const data = await req.json();
-
+    if('isVerified' in data){
+      return Response.json({success:false,message:"You are not allowed to verify the user"},{status:400})
+    }
     if (!data || Object.keys(data).length === 0) {
       return Response.json(
         { success: false, message: "Details are required" },

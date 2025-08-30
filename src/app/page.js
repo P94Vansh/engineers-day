@@ -8,40 +8,42 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect"
 import { SparklesCore } from "@/components/ui/sparkles";
 import { CardStack } from "@/components/ui/card-stack";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 export default function Home() {
+  const router=useRouter()
   const CARDS1 = [
     {
       id: 0,
-      src: 'event2.jpg'
+      src: 'event2.JPG'
     },
     {
       id: 1,
-      src: 'event3.jpg'
+      src: 'event3.JPG'
     },
     {
       id: 2,
-      src: 'event4.jpg'
+      src: 'event4.JPG'
     },
 
   ]
   const CARDS2 = [
     {
       id: 0,
-      src: 'event5.jpg'
+      src: 'event5.JPG'
     },
     {
       id: 1,
-      src: 'event6.jpg'
+      src: 'event6.JPG'
     },
     {
       id: 2,
-      src: 'event7.jpg'
+      src: 'event7.JPG'
     }
   ]
   const CARDS3 = [
     {
       id: 0,
-      src: 'event8.jpg'
+      src: 'event8.JPG'
     },
     {
       id: 1,
@@ -49,7 +51,7 @@ export default function Home() {
     },
     {
       id: 2,
-      src: 'event10.jpg'
+      src: 'event10.JPG'
     }
   ]
 
@@ -72,6 +74,7 @@ export default function Home() {
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
           Engineers&apos; Day Mahotsav
         </h2>
+        
         <TextGenerateEffect words={words} />
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:text-white md:text-2xl lg:text-3xl font-sans py-2 md:pt-10 relative z-20 font-bold tracking-tight">
           Organised By:
@@ -79,16 +82,18 @@ export default function Home() {
         <p className="max-w-xl mx-auto text-md md:text-2xl text-neutral-300 dark:text-white text-center">
           CORE COMITTEE,UIT
         </p>
-        <div className="flex gap-5 pt-4 mt-3">
+        <div className="flex md:flex-row flex-col gap-5 pt-4 mt-3">
           <Button
             borderRadius="1.75rem"
-            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            onClick={()=> router.push('/technical-events')}
+            className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             Technical Events
           </Button>
           <Button
             borderRadius="1.75rem"
-            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            onClick={()=> router.push('/non-technical-events')}
+            className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             Non-Technical Events
           </Button>

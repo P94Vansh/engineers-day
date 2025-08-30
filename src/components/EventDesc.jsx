@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import data from '@/data.json'
-
+import { useRouter } from 'next/navigation';
 import { Button } from "@/components/ui/moving-border";
 function EventDesc({ event }) {
   const [eventName, setEventName] = useState(null)
@@ -13,6 +13,7 @@ function EventDesc({ event }) {
       }
     }
   }, [])
+  const router=useRouter()
   return (
     <div className='p-8'>
 
@@ -21,8 +22,9 @@ function EventDesc({ event }) {
           <h1 className='text-white font-bold text-5xl text-center'>{eventName.eventName}</h1>
           <div className='w-full flex justify-center items-center py-8'>
           <Button
+            onClick={()=> router.push('/register')}
                       borderRadius="1.75rem"
-                      className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                      className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
                     >
                       Register
                     </Button>

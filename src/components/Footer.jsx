@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 
-const Footer = () => {
+const Footer = ({id}) => {
   return (
     <div>
-      <div className="bg-black">
+      <div id={id} className="bg-black">
         <div className="text-white text-center p-4 py-7 text-4xl font-semibold">
           Contact Us At
         </div>
