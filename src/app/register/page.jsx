@@ -70,7 +70,7 @@ export default function Register() {
             setFormData({ ...formData, [name]: value, teamSize: undefined, transition_amount: 0, eventSpectrum: undefined, eventVartalap: undefined });
             setFeesPrice("Please Select the teamSize first")
             const eventInd = events.findIndex((event) => event === value)
-            if (value !== "Spectrum" && value !== "Vartalap") setTeamSize(teamMembersAllowed[eventInd])
+            if (value !== "Spectrum" && value !== "War-tā-lab") setTeamSize(teamMembersAllowed[eventInd])
             setTeamMemberNumber(0)
         }
         else if (name === "eventSpectrum") {
@@ -79,7 +79,7 @@ export default function Register() {
         }
         else if (name === "eventVartalap") {
             setFormData({ ...formData, [name]: value, teamSize: undefined })
-            setTeamSize(teamMembersAllowed[18][value])
+            setTeamSize(teamMembersAllowed[21][value])
         }
         else if (name === "teamSize") {
             if (value === "Solo") {
@@ -102,7 +102,7 @@ export default function Register() {
             else if (!formData["event"]) fees = 'Please select the event First'
             else {
                 const eventIdx = events.findIndex((value) => value === formData["event"])
-                if (formData["event"] !== "Spectrum" && formData["event"] !== "Vartalap") {
+                if (formData["event"] !== "Spectrum" && formData["event"] !== "War-tā-lab") {
                     const teamSizeIdx = teamMembersAllowed[eventIdx].findIndex((val) => val === value)
                     if (formData["college"] === "UIT") {
                         fees = feesUit[eventIdx][teamSizeIdx]
@@ -124,7 +124,7 @@ export default function Register() {
                             }
                         }
                     }
-                    else if (formData["event"] === "Vartalap") {
+                    else if (formData["event"] === "War-tā-lab") {
                         if (!formData["eventVartalap"]) {
                             fees = "Please Select Sub Event First"
                         }
@@ -154,7 +154,7 @@ export default function Register() {
             else if (!formData["teamSize"]) fees = 'Please selece the team size First'
             else {
                 const eventIdx = events.findIndex((value) => value === formData["event"])
-                if (formData["event"] !== "Spectrum" && formData["event"] !== "Vartalap") {
+                if (formData["event"] !== "Spectrum" && formData["event"] !== "War-tā-lab") {
                     const teamSizeIdx = teamMembersAllowed[eventIdx].findIndex((val) => val === formData["teamSize"])
                     if (value === "UIT") {
                         fees = feesUit[eventIdx][teamSizeIdx]
@@ -176,7 +176,7 @@ export default function Register() {
                             }
                         }
                     }
-                    else if (formData["event"] === "Vartalap") {
+                    else if (formData["event"] === "War-tā-lab") {
                         if (!formData["eventVartalap"]) {
                             fees = "Please Select Sub Event First"
                         }
@@ -336,7 +336,7 @@ export default function Register() {
                             )
                         }
                         {
-                            formData["event"] === "Vartalap" && (
+                            formData["event"] === "War-tā-lab" && (
                                 <Select
                                     options={eventVartalap}
                                     label={"Select Sub event"}
@@ -356,7 +356,7 @@ export default function Register() {
                                 <div className="text-gray-300 flex-1 h-[40px] border flex items-center justify-center border-[#444] rounded text-center">Choose SubEvent First</div>
                             </div>
                         )}
-                        {!formData["event"] || (formData["event"] === "Vartalap" && !formData["eventVartalap"]) && (
+                        {!formData["event"] || (formData["event"] === "War-tā-lab" && !formData["eventVartalap"]) && (
                             <div className="flex-1 flex-shrink mb-2">
                                 <div className="text-white mb-2">Number of Team Members</div>
                                 <div className="text-gray-300 flex-1 h-[40px] border flex items-center justify-center border-[#444] rounded text-center">Choose SubEvent First</div>
@@ -364,7 +364,7 @@ export default function Register() {
                         )}
                     </div>
                     <div className="flex flex-col md:flex-row gap-x-5">
-                        {formData["event"] && (formData["event"] !== "Spectrum" && formData["event"] !== "Vartalap") && (
+                        {formData["event"] && (formData["event"] !== "Spectrum" && formData["event"] !== "War-tā-lab") && (
                             <Select
                                 options={teamSize}
                                 label={"Select Team Size"}
@@ -388,7 +388,7 @@ export default function Register() {
                                 required
                             />
                         )}
-                        {formData["event"] && formData["event"] === "Vartalap" && formData["eventVartalap"] && (
+                        {formData["event"] && formData["event"] === "War-tā-lab" && formData["eventVartalap"] && (
                             <Select
                                 options={teamSize}
                                 label={"Select Team Size"}
@@ -517,10 +517,10 @@ const events = [
     "Spectrum",
     "SnapShot",
     "UIT Castle",
-    "Vartalap",
     "Vidya Vrith",
     "Vijay Ghosh",
-    "Vocal Vogue"
+    "Vocal Vogue",
+    "War-tā-lab",
 ]
 const teamMembersAllowed = [
     ["Trio", "Quartet"],
@@ -541,10 +541,10 @@ const teamMembersAllowed = [
     { "Dance": ["Solo", "Duet"], "Singing": ["Solo", "Duet"], "Modelling": ["Solo", "Duet"], "CosPlay": ["Solo"] },
     ["Solo", "Duet", "Quartet"],
     ["Solo", "Duet", "Quartet"],
-    { "Group Discussion": ["Solo"], "Debate": ["Solo", "Duet", "Trio", "Quartet"] },
     ["Solo", "Duet"],
     ["Trio", "Quartet"],
-    ["Solo"]
+    ["Solo"],
+    { "Group Discussion": ["Solo"], "Debate": ["Solo", "Duet", "Trio", "Quartet"] },
 ]
 const feesAll = [
     [100, 150],
@@ -570,13 +570,13 @@ const feesAll = [
     },
     [50, 80, 150],
     [50, 80, 150],
+    [50, 80],
+    [100, 150],
+    [50],
     {
         "Group Discussion": [50],
         Debate: [50, 80, 100, 150]
     },
-    [50, 80],
-    [100, 150],
-    [50]
 ];
 
 const eventSpectrum = [
@@ -613,11 +613,11 @@ const feesUit = [
     },
     [40, 70, 130],
     [40, 70, 130],
+    [40, 70],
+    [80, 130],
+    [40],
     {
         "Group Discussion": [40],
         Debate: [40, 70, 80, 130]
     },
-    [40, 70],
-    [80, 130],
-    [40]
 ];
