@@ -61,15 +61,15 @@ export default function Home() {
     },
     { text: "Patrons" }
   ];
-  const points = ['Grand 3-day fest by the Core Committee', 'Mix of technical and non-technical events'
-    , 'Includes several technical events ranging from coding competition torobo wars',
+  const points = ['Grand 2-day fest by the Core Committee', 'Mix of technical and non-technical events'
+    , 'Includes several technical events ranging from coding competition to robo wars',
     'Several Non tech events included from Dj Mixes to soulful singing',
     'Celebrates creativity, talent, and engineering brilliance',
     'Platform to learn, compete, network and grow'
   ]
   const words = 'Where Innovation meets Elevation'
   return (
-    <>
+    <>  
       <BackgroundLines className=" h-screen flex items-center justify-center w-full flex-col px-4">
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
           Engineers&apos; Day Mahotsav
@@ -136,8 +136,8 @@ export default function Home() {
         </div>
         <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
 
-          <ImageBox title="Patron" src="/faculity-3.jpg" name="Prof. Dharam Buddhi" pos="Vice Chancellor,UU" />
-          <ImageBox title="Patron" src="/homebg.jpg" name="Prof. Rajesh Bahuguna" pos="Pro Vice Chancellor,UU" />
+          <ImageBox title="Patron" src="/faculity-3.jpg" name="Prof(Dr.) Dharam Buddhi" pos="Vice Chancellor,UU" />
+          <ImageBox title="Patron" src="/homebg.jpg" name="Prof(Dr.) Rajesh Bahuguna" pos="Pro Vice Chancellor,UU" />
           <ImageBox title="Patron" src="/directorr.jpg" name="Dr. Abhishek Joshi" pos="Executive Director,UU" />
         </div>
       </div>
@@ -208,7 +208,7 @@ export default function Home() {
       </div>
       <hr className="bg-white h-0.5" />
       <div className="w-full flex justify-center items-center">
-        <TypewriterEffectSmooth words={[{ text: 'Our' }, { text: 'Glimpses' }]} />
+        <TypewriterEffectSmooth words={[{ text: 'Some' }, { text: 'Glimpses' }]} />
       </div>
       <div className="full flex items-center justify-center gap-20 flex-wrap py-10">
         <CardStack items={CARDS1} />

@@ -34,7 +34,7 @@
             "Judges’ decision will be final."
         ],
         "auditionDateandTime": [
-            "12th September",
+            "11th September",
             "1:30 PM"
         ],
         "auditionVenue": "UIT Seminar Hall",
@@ -126,7 +126,7 @@
             "Judges’ decision will be final."
         ],
         "auditionDateandTime": [
-            "11th September 2025",
+            "12th September 2025",
             "10:30 AM"
         ],
         "auditionVenue": "UIT Seminar Hall",
@@ -343,7 +343,7 @@
         ],
         "eventGuids": [
             {
-                "Round 1: Not the One (Choose the incorrect Option": [
+                "Round 1: Not the One (Choose the incorrect Option)": [
                     " You will be presented with multiple options. The twist: the “incorrect” option is the correct answer.",
                     " Choosing the obvious right answer will get you eliminated.",
                     " You must lock your answer within the time limit."
@@ -443,7 +443,7 @@
             "15th September 2025",
             "2:30 PM to 4:30 PM"
         ],
-        "actualVenue": "Ground Floor UIT",
+        "actualVenue": "Board Floor UIT",
         "eligibility": "Open to all students",
         "teamSize": [
             "Solo",
@@ -453,19 +453,14 @@
         "registrationFeesAll": [
             [
                 {
-                    "Snap Shot": 50
+                    "Snap Shot": "50"
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "Snap Shot": 20
-                }
-            ],
-            [
-                {
-                    "Snap Shot": 40
+                    "Snap Shot": "20"
                 }
             ]
         ],
@@ -585,6 +580,7 @@
             "Internet access is allowed, but plagiarism of code will result in disqualification.",
             "All code must be uploaded/submitted to the designated repository/platform before the deadline.",
             "Each team must present their solution to the jury at the end.",
+            "Teams must consist of 3-4 members.",
             "The decision of the judges will be final."
         ],
         "actualDateandTime": [
@@ -598,16 +594,30 @@
             "Quartet"
         ],
         "registrationFeesAll": [
+            [],
+            [],
             [
                 {
-                    "Hackathon": 500
+                    "CodeStorm": 500
+                }
+            ],
+            [
+                {
+                    "CodeStorm": 500
                 }
             ]
         ],
         "registrationFessUIT": [
+            [],
+            [],
             [
                 {
-                    "Hackathon": 500
+                    "CodeStorm": 500
+                }
+            ],
+            [
+                {
+                    "CodeStorm": 500
                 }
             ]
         ],
@@ -704,7 +714,7 @@
         ]
     },
     {
-        "eventName": "IGNITION WAR",
+        "eventName": "Ignition War",
         "slug": "ignition-war",
         "actualEventName": "Rocketry Challenge",
         "clubName": "Aerospace club",
@@ -741,6 +751,18 @@
             "Solo"
         ],
         "registrationFeesAll": [
+            [],
+            [],
+            [
+                {
+                    "IgnitionWar": 200
+                }
+            ],
+            [
+                {
+                    "IgnitionWar":200
+                }
+            ],
             [
                 {
                     "IgnitionWar": 200
@@ -748,6 +770,18 @@
             ]
         ],
         "registrationFessUIT": [
+             [],
+            [],
+            [
+                {
+                    "IgnitionWar": 50
+                }
+            ],
+            [
+                {
+                    "IgnitionWar":50
+                }
+            ],
             [
                 {
                     "IgnitionWar": 50
@@ -798,6 +832,17 @@
             "Quartet"
         ],
         "registrationFeesAll": [
+            [],
+            [
+                {
+                    "Dronovation": 200
+                }
+            ],
+            [
+                {
+                    "Dronovation": 200
+                }
+            ],
             [
                 {
                     "Dronovation": 200
@@ -805,6 +850,17 @@
             ]
         ],
         "registrationFessUIT": [
+            [],
+            [
+                {
+                    "Dronovation": 50
+                }
+            ],
+            [
+                {
+                    "Dronovation": 50
+                }
+            ],
             [
                 {
                     "Dronovation": 50
@@ -860,6 +916,17 @@
             "Quartet"
         ],
         "registrationFeesAll": [
+            [],
+            [
+                {
+                    "Hydrophilia": 500
+                }
+            ],
+            [
+                {
+                    "Hydrophilia": 500
+                }
+            ],
             [
                 {
                     "Hydrophilia": 500
@@ -867,6 +934,17 @@
             ]
         ],
         "registrationFessUIT": [
+            [],
+            [
+                {
+                    "Hydrophilia": 125
+                }
+            ],
+            [
+                {
+                    "Hydrophilia": 125
+                }
+            ],
             [
                 {
                     "Hydrophilia": 125
@@ -880,8 +958,8 @@
         ]
     },
     {
-        "eventName": "Metal Fogging",
-        "slug": "metal-fogging",
+        "eventName": "Metal Forging",
+        "slug": "metal-forging",
         "actualEventName": "Water Treatment Simulation",
         "clubName": "UU-MEC",
         "eventType": "Technical",
@@ -944,160 +1022,217 @@
             "Functionality(40%)"
         ]
     },
-    {
-        "eventName": "Extempore Debate",
-        "slug": "extempore-debate",
-        "actualEventName": "War-tā-lab",
-        "clubName": "Expressions; The Literary Club",
-        "eventType": " Non-Technical",
-        "description": [
-            "War-tā-lab is an extempore debate competition designed like a knockout tournament. Teams will be assigned a motion/topic on the spot and given 2–3 minutes to prepare. Each team will present arguments (For/Against), followed by rebuttals. Winners progress through quarterfinals, semifinals, and finals until the champion team emerges."
-        ],
-        "eventCoordinators": [
-            [
-                "Prashant Yadav",
-                "9634468870",
-                "prashant42vz@gmail.com"
-            ],
-            [
-                "Epsha",
-                "8401164872",
-                "epsha.t2006@gmail.com"
-            ]
-        ],
-        "facultyCoordinators": [
-            [
-                "Dr. Pinki Chugh",
-                "9837312241"
-            ]
-        ],
-        "eventGuids": [
-            "Participation is in teams of 4,3,2 or 1.",
-            "Tournament bracket will be knockout style.",
-            "Topics are given 5 minutes before the debate round.",
-            "Each team gets 3 minutes (opening arguments) + 2 minutes (rebuttal).",
-            "No external help (internet/notes) during preparation.",
-            "Use of offensive/derogatory language leads to disqualification.",
-            "Judges' decision is final.",
-            "Late arrival = walkover for the opponent team."
-        ],
-        "actualDateandTime": [
-            "16th September 2025",
-            "9:30 AM to 12:30 pm"
-        ],
-        "actualVenue": "Seminar Hall, UIT",
-        "eligibility": "Open to all students",
-        "teamSize": [
-            "Solo",
-            "Duet",
-            "Tio",
-            "Quartet"
-        ],
-        "registrationFeesAll": [
-            [
-                {
-                    "War ta lab": 150
-                },
-                {
-                    "War ta lab": 200
-                }
-            ]
-        ],
-        "registrationFessUIT": [
-            [
-                {
-                    "War ta lab": 40
-                },
-                {
-                    "War ta lab": 50
-                }
-            ]
-        ]
-    },
+
+
     {
         "eventName": "War-tā-lab",
         "slug": "war-ta-lab",
         "actualEventName": "War-tā-lab",
         "clubName": "Expressions; The Literary Club",
         "eventType": "Non-Technical",
-        "description": [
-            "War-tā-lab (Group Discussion) is an extempore discussion-based competition where individuals participate in groups and discuss a given topic spontaneously. Each group will consist of 6–8 participants who will be given 2–3 minutes to think before the discussion begins. The GD will last for 10–12 minutes, where participants will be judged on their content, communication, listening, and ability to drive the discussion forward. Top performers from each group advance to the final round."
-        ],
-        "eventCoordinators": [
-            [
-                "Prashant Yadav",
-                "9634468870",
-                "prashant42vz@gmail.com"
+        "subEvent1":{
+            "name":"Group Discussion",
+            "description": [
+                "War-tā-lab (Group Discussion) is an extempore discussion-based competition where individuals participate in groups and discuss a given topic spontaneously. Each group will consist of 6–8 participants who will be given 2–3 minutes to think before the discussion begins. The GD will last for 10–12 minutes, where participants will be judged on their content, communication, listening, and ability to drive the discussion forward. Top performers from each group advance to the final round."
             ],
-            [
-                "Epsha",
-                "8401164872",
-                "epsha.t2006@gmail.com"
-            ]
-        ],
-        "facultyCoordinators": [
-            [
-                "Dr. Pinki Chugh",
-                "9837312241"
-            ]
-        ],
-        "eventGuids": [
-            "Participation is individual.",
-            "Each group will have 6-8 participants.",
-            "2 minutes prep time before the discussion begins.",
-            "10-12 minutes discussion time per round.",
-            "Respect others opinions; interruptions should be polite.",
-            "Avoid shouting, personal attacks, or dominating behavior.",
-            "Judges decision will be final.",
-            "Mobile phones or external help are not allowed."
-        ],
-        "actualDateandTime": [
-            "16th September 2025",
-            "9:30 AM to 12:30 pm"
-        ],
-        "actualVenue": "ClassRoom(s) UIT",
-        "eligibility": "Open to all students",
-        "teamSize": [
-            "Solo"
-        ],
-        "registrationFeesAll": [
-            [
-                {
-                    "Group Disucussion": 150
-                }
-                
+            "eventCoordinators": [
+                [
+                    "Prashant Yadav",
+                    "9634468870",
+                    "prashant42vz@gmail.com"
+                ],
+                [
+                    "Epsha",
+                    "8401164872",
+                    "epsha.t2006@gmail.com"
+                ]
             ],
-            [
-                {
-                    "Group Disucussion": 200
-                }
-            ]
-        ],
-        "registrationFessUIT": [
-            [
-                {
-                    "Group Disucussion": 40
-                }
+            "facultyCoordinators": [
+                [
+                    "Dr. Pinki Chugh",
+                    "9837312241"
+                ]
             ],
-            [
-                {
-                    "Group Disucussion": 50
-                }
+            "eventGuids": [
+                "Participation is individual.",
+                "Topics will be given on the spot.",
+                "Each group will have 6-8 participants.",
+                "2 minutes prep time before the discussion begins.",
+                "10-12 minutes discussion time per round.",
+                "Respect others opinions; interruptions should be polite.",
+                "Avoid shouting, personal attacks, or dominating behavior.",
+                "Judges decision will be final.",
+                "Mobile phones or external help are not allowed."
+            ],
+            "actualDateandTime": [
+                "16th September 2025",
+                "9:30 AM to 12:30 pm"
+            ],
+            "actualVenue": "ClassRoom(s) UIT",
+            "eligibility": "Open to all students",
+            "teamSize": [
+                "Sextet",
+                "Septet",
+                "Octet"
+            ],
+            "registrationFeesAll": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    {
+                        "Group Disucssion":120
+                    }
+                ],
+                [
+                    {
+                        "Group Disucussion": 140
+                    }
+                ],
+                [
+                    {
+                        "Group Disucussion": 160
+                    }
+                ]
+            ],
+            "registrationFessUIT": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    {
+                        "Group Disucssion":120
+                    }
+                ],
+                [
+                    {
+                        "Group Disucussion": 140
+                    }
+                ],
+                [
+                    {
+                        "Group Disucussion": 160
+                    }
+                ]
+            ],
+            "judgingCriteria": [
+                "Content & Relevance of Ideas - 30",
+                "Clarity of Expression - 20",
+                "Confidence & Body Language - 15",
+                "Listening Skills & Team Etiquette - 15",
+                "Initiative & Ability to Drive Discussion - 20"
+            ],
+            "additionalNotes": [
+                "Winner gets certificate + prize trophy.",
+                "Runner-up gets certificates.",
+                "Participation certificates for all."
             ]
-        ],
-        "judgingCriteria": [
-            "Content & Argument Strength – 30",
-            "Rebuttal & Counter-arguments – 20",
-            "Clarity & Fluency – 20",
-            "Confidence & Stage Presence – 15",
-            " Time Management – 15"
-        ],
-        "additionalNotes": [
-            "Winning team gets certificate + prize trophy.",
-            "Runners-up get certificates.",
-            "Participation certificates for all."
-        ]
+        },
+        "subEvent2":{
+            "name":"Extempore Debate",
+            "description": [
+                "War-tā-lab is an extempore debate competition designed like a knockout tournament. Teams will be assigned a motion/topic on the spot and given 2–3 minutes to prepare. Each team will present arguments (For/Against), followed by rebuttals. Winners progress through quarterfinals, semifinals, and finals until the champion team emerges."
+            ],
+            "eventCoordinators": [
+                [
+                    "Prashant Yadav",
+                    "9634468870",
+                    "prashant42vz@gmail.com"
+                ]
+            ],
+            "facultyCoordinators": [
+                [
+                    "Dr. Pinki Chugh",
+                    "9837312241"
+                ]
+            ],
+            "eventGuids": [
+                "Participation is in teams of 4,3,2 or 1.",
+                "The tournament bracket will be knockout style.",
+                "Topics are given 5 minutes before the debate round.",
+                "Each team gets 3 minutes (opening arguments) + 2 minutes (rebuttal).",
+                "No external help (internet/notes) during preparation.",
+                "Use of offensive/derogatory language leads to disqualification.",
+                "The judges' decision is final.",
+                "Late arrival = walkover for the opponent team."
+            ],
+            "actualDateandTime": [
+                "16th September 2025",
+                "9:30 AM to 12:30 pm"
+            ],
+            "actualVenue": "Seminar Hall, UIT",
+            "eligibility": "Open to all students",
+            "teamSize": [
+                "Solo",
+                "Duo",
+                "Trio"
+            ],
+            "registrationFeesAll": [
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                    
+                ],
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                ],
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                ],
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                ]
+            ],
+            "registrationFessUIT": [
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                    
+                ],
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                ],
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                ],
+                [
+                    {
+                        "Extempore Debate": 40
+                    }
+                ]
+            ],
+            "judgingCriteria": [
+                "Content & Argument Strength – 30",
+                "Rebuttal & Counter-arguments – 20",
+                "Clarity & Fluency – 20",
+                "Confidence & Stage Presence – 15",
+                " Time Management – 15"
+            ],
+            "additionalNotes": [
+                "Winning team gets certificate + prize trophy.",
+                "Runners-up get certificates.",
+                "Participation certificates for all."
+            ]
+        }
     },
+
+
     {
         "eventName": "Colour Splash",
         "slug": "colour-splash",
@@ -1156,10 +1291,10 @@
         "registrationFessUIT": [
             [
                 {
-                    "Group Disucussion": 50
+                    "Colour Splash": 15
                 },
                 {
-                    "Group Disucussion": 100
+                    "Colour Splash": 20
                 }
             ]
         ],
@@ -1211,6 +1346,17 @@
             "Quartet"
         ],
         "registrationFeesAll": [
+            [],
+            [
+                {
+                    "Nal Neel": 500
+                }
+            ],
+            [
+                {
+                    "Nal Neel": 500
+                }
+            ],
             [
                 {
                     "Nal Neel": 500
@@ -1218,12 +1364,20 @@
             ]
         ],
         "registrationFessUIT": [
+            [],
             [
                 {
                     "Nal Neel": 125
-                },
+                }
+            ],
+            [
                 {
-                    "Group Disucussion": 100
+                    "Nal Neel": 125
+                }
+            ],
+            [
+                {
+                    "Nal Neel": 125
                 }
             ]
         ],
@@ -1273,7 +1427,7 @@
             "16th September 2025",
             "9:30 AM to 12:30 pm"
         ],
-        "actualVenue": "UIT Building",
+        "actualVenue": "1st Floor UIT",
         "eligibility": "Open to all students",
         "teamSize": [
             "Duet",
@@ -1283,9 +1437,21 @@
             [
                 {
                     "EngiNova": 100
-                },
+                }
+            ],
+            [
                 {
-                    "EngiNova": 200
+                    "EngiNova":200
+                }
+            ],
+            [
+                {
+                    "EngiNova":200
+                }
+            ],
+            [
+                {
+                    "EngiNova":200
                 }
             ]
         ],
@@ -1293,9 +1459,21 @@
             [
                 {
                     "EngiNova": 25
-                },
+                }
+            ],
+            [
                 {
-                    "Group Disucussion": 50
+                    "EngiNova":50
+                }
+            ],
+            [
+                {
+                    "EngiNova":50
+                }
+            ],
+            [
+                {
+                    "EngiNova":50
                 }
             ]
         ],
@@ -1456,7 +1634,7 @@
         ]
     },
     {
-        "eventName": "Sci Life",
+        "eventName": "Scilife",
         "slug": "sci-life",
         "actualEventName": "Model Presentation",
         "clubName": "Vedic Club",
@@ -1569,7 +1747,7 @@
             "16th September 2025",
             "10:00 AM to 3:00 pm"
         ],
-        "actualVenue": " Mechanical Block Ground / Robotics Arena",
+        "actualVenue": "Ground Floor UIT",
         "eligibility": "Open to all students",
         "teamSize": [
             "Duet",

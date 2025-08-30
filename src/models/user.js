@@ -72,6 +72,9 @@ const userSchema=new Schema({
     teamMember7:{
         type:String
     },
+    teamMember8:{
+        type:String
+    },
     teamMemberGameId1:{
         type:String
     },

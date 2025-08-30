@@ -14,3 +14,17 @@
     transform: translate(-50%, -40%) scale(1);
   }
 }
+@keyframes meteor-fall {
+  0% {
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.animate-meteor-effect {
+  animation: meteor-fall 5s linear infinite;
+}
