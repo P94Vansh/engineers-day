@@ -101,12 +101,8 @@
         "eventType": "Non-Technical",
         "description": [
             "Vocal Vogue is an open mic and talent hunt that provides a platform for students to showcase their talents in singing, poetry, stand-up, storytelling, and other performing arts. The event consists of two rounds:",
-            {
-                "Preliminary Round (Auditions)": "Will be held on 11th September 2025 at UIT Seminar Hall."
-            },
-            {
-                "Final Round": "Selected participants will perform on 15th September near the Tuck Shop."
-            }
+                "Preliminary Round (Auditions): Will be held on 11th September 2025 at UIT Seminar Hall.",
+                "Final Round: Selected participants will perform on 15th September near the Tuck Shop."
         ],
         "eventCoordinators": [
             [
@@ -131,7 +127,7 @@
         ],
         "auditionDateandTime": [
             "11th September 2025",
-            "1:30 PM"
+            "10:30 AM"
         ],
         "auditionVenue": "UIT Seminar Hall",
         "actualDateandTime": [
@@ -282,9 +278,7 @@
             "Time be penalized for unsportsmanlike conduct or time violations.",
             "Bring your own kit according to sports",
             "Referee's decision will be the final decision.",
-            "Team members arguing with the officials will lead to team disqualifications.",
-            "Team member arguing with the officials will lead to team disqualifications.",
-            "Team member arguing with the officials will lead to team disqualifications."
+            "Team members arguing with the officials will lead to team disqualifications."
         ],
         "actualDateandTime": [
             "15th September 2025",
@@ -459,24 +453,19 @@
         "registrationFeesAll": [
             [
                 {
-                    "UITCASTLE": 80
-                }
-            ],
-            [
-                {
-                    "UITCASTLE": 150
+                    "Snap Shot": 50
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "UITCASTLE": 20
+                    "Snap Shot": 20
                 }
             ],
             [
                 {
-                    "UITCASTLE": 40
+                    "Snap Shot": 40
                 }
             ]
         ],
@@ -1026,8 +1015,8 @@
         ]
     },
     {
-        "eventName": "Group Discussion",
-        "slug": "group-discussion",
+        "eventName": "War-tā-lab",
+        "slug": "war-ta-lab",
         "actualEventName": "War-tā-lab",
         "clubName": "Expressions; The Literary Club",
         "eventType": "Non-Technical",
@@ -1074,20 +1063,25 @@
         "registrationFeesAll": [
             [
                 {
-                    "Group Disucussion": 100
-                },
-                {
                     "Group Disucussion": 150
+                }
+                
+            ],
+            [
+                {
+                    "Group Disucussion": 200
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "Group Disucussion": 100
-                },
+                    "Group Disucussion": 40
+                }
+            ],
+            [
                 {
-                    "Group Disucussion": 150
+                    "Group Disucussion": 50
                 }
             ]
         ],

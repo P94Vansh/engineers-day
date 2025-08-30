@@ -10,7 +10,7 @@ export default function Register() {
     const [submitDisabled, setSubmitDisabled] = useState(false);
     const [teamSize, setTeamSize] = useState([])
     const [teamMemberNumber, setTeamMemberNumber] = useState(0)
-
+    const [feesPrice, setFeesPrice] = useState('')
     const [formData, setFormData] = useState({ transition_amount: 0 });
     const [isCollegeUIT, setIsCollegeUIT] = useState(false)
     const onSubmit = async (e) => {
@@ -20,30 +20,31 @@ export default function Register() {
         setSubmitDisabled(true);
         console.log({ formData });
         try {
-            const response = await fetch("/api/registration", {
+            const response = await fetch("/api/send-data", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({ ...formData, year: parseInt(formData.year) }),
+                body: JSON.stringify({ ...formData }),
             });
-
             if (response.ok) {
                 let data = await response.json();
-                let { type } = data;
-                switch (type) {
-                    case "success":
-                        setInfoTheme("success");
-                        setInfoText(`Form Submitted Successfully...
+                console.log(data)
+                let { success } = data;
+                console.log(success)
+                if (success) {
+                    setInfoTheme("success");
+                    setInfoText(`Form Submitted Successfully...
               Our Team will contact you Shortly through the provided Mail... Please keep Checking the spam folder of provided email as well.. If you don't receive mail within one day.. kindly contact us..`);
-                        break;
-                    case "error":
-                        setInfoTheme("error");
-                        setInfoText(data.message + " -- Contact US with Error");
-                        break;
+                }
+                else {
+                    setInfoTheme("error");
+                    setInfoText(data.message + " -- Contact US with Error");
+
                 }
 
-            } else {
+            }
+            else {
                 console.error("Failed to submit form");
                 setInfoTheme("error");
                 setInfoText("Error submitting form - Contact us from bottom of page");
@@ -61,24 +62,33 @@ export default function Register() {
 
     const handleInput = (e) => {
         let { name, value } = e.target;
-
+        console.log(name)
         // Update transition_amount dynamically based on the selected event
         if (name === "event") {
             // const selectedEvent = fees.find((fee) => Object.keys(fee)[0] === value);
             // const eventFee = selectedEvent ? Object.values(selectedEvent)[0] : 0;
-            setFormData({ ...formData, [name]: value });
+            setFormData({ ...formData, [name]: value, teamSize: undefined, transition_amount: 0, eventSpectrum: undefined, eventVartalap: undefined });
+            setFeesPrice("Please Select the teamSize first")
             const eventInd = events.findIndex((event) => event === value)
-            setTeamSize(teamMembersAllowed[eventInd])
+            if (value !== "Spectrum" && value !== "Vartalap") setTeamSize(teamMembersAllowed[eventInd])
+            setTeamMemberNumber(0)
+        }
+        else if (name === "eventSpectrum") {
+            setFormData({ ...formData, [name]: value, teamSize: undefined });
+            setTeamSize(teamMembersAllowed[15][value])
+        }
+        else if (name === "eventVartalap") {
+            setFormData({ ...formData, [name]: value, teamSize: undefined })
+            setTeamSize(teamMembersAllowed[18][value])
         }
         else if (name === "teamSize") {
-            setFormData({ ...formData,[name]:value})
             if (value === "Solo") {
                 setTeamMemberNumber(0)
             } else if (value === "Duet") {
                 setTeamMemberNumber(1)
             } else if (value === "Trio") {
                 setTeamMemberNumber(2)
-            } else if (value === "Quartet") {
+            } else if (value === "Quartet" || value === "Group") {
                 setTeamMemberNumber(3)
             } else if (value === "Quintet") {
                 setTeamMemberNumber(4)
@@ -87,35 +97,105 @@ export default function Register() {
             } else {
                 setTeamMemberNumber(0)
             }
-        }
-        else {
-            setFormData({ ...formData, [name]: value });
-            if (name === "college") {
-                if (value === "Other") {
-                    setIsCollegeUIT(true)
-                } else {
-                    setIsCollegeUIT(false)
+            let fees
+            if (!formData["college"]) fees = 'Please selece the college First'
+            else if (!formData["event"]) fees = 'Please select the event First'
+            else {
+                const eventIdx = events.findIndex((value) => value === formData["event"])
+                if (formData["event"] !== "Spectrum" && formData["event"] !== "Vartalap") {
+                    const teamSizeIdx = teamMembersAllowed[eventIdx].findIndex((val) => val === value)
+                    if (formData["college"] === "UIT") {
+                        fees = feesUit[eventIdx][teamSizeIdx]
+                    } else {
+                        fees = feesUit[eventIdx][teamSizeIdx]
+                    }
                 }
-            }
-        }
-        if(name==="event" || name==="college" || name==="teamSize"){
-            setFormData({ ...formData, [name]: value });
-            if(formData["event"] && formData["college"] && formData["teamSize"]){
-                const eventIdx = events.findIndex((val) => val === formData["event"])
-                console.log(eventIdx)
-                for (let i = 0; i < teamMembersAllowed[eventIdx].length; i++) {
-                    if (teamMembersAllowed[eventIdx][i] === formData["teamSize"]) {
-                        console.log(i)
-                        if (formData["college"] === "UIT") {
-                            setFormData({ ...formData, transition_amount: feesUit[eventIdx][i] })
+                else {
+                    if (formData["event"] === "Spectrum") {
+                        if (!formData["eventSpectrum"]) {
+                            fees = "Please Select Sub Event First"
                         }
-                        else{
-                            setFormData({ ...formData, transition_amount: feesAll[eventIdx][i] })
+                        else {
+                            const teamSizeIdx = teamMembersAllowed[eventIdx][formData["eventSpectrum"]].findIndex((val) => val === value)
+                            if (formData["college"] === "UIT") {
+                                fees = feesUit[eventIdx][formData["eventSpectrum"]][teamSizeIdx]
+                            } else {
+                                fees = feesAll[eventIdx][formData["eventSpectrum"]][teamSizeIdx]
+                            }
                         }
-                        break
+                    }
+                    else if (formData["event"] === "Vartalap") {
+                        if (!formData["eventVartalap"]) {
+                            fees = "Please Select Sub Event First"
+                        }
+                        else {
+                            const teamSizeIdx = teamMembersAllowed[eventIdx][formData["eventVartalap"]].findIndex((val) => val === value)
+                            if (formData["college"] === "UIT") {
+                                fees = feesUit[eventIdx][formData["eventVartalap"]][teamSizeIdx]
+                            } else {
+                                fees = feesAll[eventIdx][formData["eventVartalap"]][teamSizeIdx]
+                            }
+                        }
                     }
                 }
             }
+            setFeesPrice(fees)
+            setFormData({ ...formData, [name]: value, transition_amount: fees })
+        }
+        else if (name === "college") {
+
+            if (value === "Other") {
+                setIsCollegeUIT(true)
+            } else {
+                setIsCollegeUIT(false)
+            }
+            let fees
+            if (!formData["event"]) fees = 'Please select the event First'
+            else if (!formData["teamSize"]) fees = 'Please selece the team size First'
+            else {
+                const eventIdx = events.findIndex((value) => value === formData["event"])
+                if (formData["event"] !== "Spectrum" && formData["event"] !== "Vartalap") {
+                    const teamSizeIdx = teamMembersAllowed[eventIdx].findIndex((val) => val === formData["teamSize"])
+                    if (value === "UIT") {
+                        fees = feesUit[eventIdx][teamSizeIdx]
+                    } else {
+                        fees = feesAll[eventIdx][teamSizeIdx]
+                    }
+                }
+                else {
+                    if (formData["event"] === "Spectrum") {
+                        if (!formData["eventSpectrum"]) {
+                            fees = "Please Select Sub Event First"
+                        }
+                        else {
+                            const teamSizeIdx = teamMembersAllowed[eventIdx][formData["eventSpectrum"]].findIndex((val) => val === formData["teamSize"])
+                            if (value === "UIT") {
+                                fees = feesUit[eventIdx][formData["eventSpectrum"]][teamSizeIdx]
+                            } else {
+                                fees = feesAll[eventIdx][formData["eventSpectrum"]][teamSizeIdx]
+                            }
+                        }
+                    }
+                    else if (formData["event"] === "Vartalap") {
+                        if (!formData["eventVartalap"]) {
+                            fees = "Please Select Sub Event First"
+                        }
+                        else {
+                            const teamSizeIdx = teamMembersAllowed[eventIdx][formData["eventVartalap"]].findIndex((val) => val === formData["teamSize"])
+                            if (value === "UIT") {
+                                fees = feesUit[eventIdx][formData["eventVartalap"]][teamSizeIdx]
+                            } else {
+                                fees = feesAll[eventIdx][formData["eventVartalap"]][teamSizeIdx]
+                            }
+                        }
+                    }
+                }
+            }
+            setFeesPrice(fees)
+            setFormData({ ...formData, [name]: value, transition_amount: fees })
+        }
+        else {
+            setFormData({ ...formData, [name]: value });
         }
     };
 
@@ -242,9 +322,49 @@ export default function Register() {
                             className="flex-1"
                             required
                         />
+                        {
+                            formData["event"] === "Spectrum" && (
+                                <Select
+                                    options={eventSpectrum}
+                                    label={"Select Sub event"}
+                                    name={'eventSpectrum'}
+                                    onChange={handleInput}
+                                    value={formData["eventSpectrum"]}
+                                    className="flex-1"
+                                    required
+                                />
+                            )
+                        }
+                        {
+                            formData["event"] === "Vartalap" && (
+                                <Select
+                                    options={eventVartalap}
+                                    label={"Select Sub event"}
+                                    name={'eventVartalap'}
+                                    onChange={handleInput}
+                                    value={formData["eventVartalap"]}
+                                    className="flex-1"
+                                    required
+                                />
+                            )
+                        }
                     </div>
                     <div className="flex flex-col md:flex-row gap-x-5">
-                        {formData["event"] ? (
+                        {!formData["event"] || (formData["event"] === "Spectrum" && !formData["eventSpectrum"]) && (
+                            <div className="flex-1 flex-shrink mb-2">
+                                <div className="text-white mb-2">Number of Team Members</div>
+                                <div className="text-gray-300 flex-1 h-[40px] border flex items-center justify-center border-[#444] rounded text-center">Choose SubEvent First</div>
+                            </div>
+                        )}
+                        {!formData["event"] || (formData["event"] === "Vartalap" && !formData["eventVartalap"]) && (
+                            <div className="flex-1 flex-shrink mb-2">
+                                <div className="text-white mb-2">Number of Team Members</div>
+                                <div className="text-gray-300 flex-1 h-[40px] border flex items-center justify-center border-[#444] rounded text-center">Choose SubEvent First</div>
+                            </div>
+                        )}
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-x-5">
+                        {formData["event"] && (formData["event"] !== "Spectrum" && formData["event"] !== "Vartalap") && (
                             <Select
                                 options={teamSize}
                                 label={"Select Team Size"}
@@ -254,13 +374,30 @@ export default function Register() {
                                 className="flex-1"
                                 required
                             />
-                        ) : (
-                            <>
-                                <div className="flex-1 flex-shrink mb-2">
-                                    <div className="text-white mb-2">Number of Team Members</div>
-                                    <div className="text-gray-300 flex-1 h-[40px] border flex items-center justify-center border-[#444] rounded text-center">Choose an Event first</div>
-                                </div>
-                            </>
+                        )}
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-x-5">
+                        {formData["event"] && formData["event"] === "Spectrum" && formData["eventSpectrum"] && (
+                            <Select
+                                options={teamSize}
+                                label={"Select Team Size"}
+                                name={"teamSize"}
+                                onChange={handleInput}
+                                value={formData["teamSize"]}
+                                className="flex-1"
+                                required
+                            />
+                        )}
+                        {formData["event"] && formData["event"] === "Vartalap" && formData["eventVartalap"] && (
+                            <Select
+                                options={teamSize}
+                                label={"Select Team Size"}
+                                name={"teamSize"}
+                                onChange={handleInput}
+                                value={formData["teamSize"]}
+                                className="flex-1"
+                                required
+                            />
                         )}
                     </div>
                     {formData["teamSize"] && (
@@ -304,38 +441,43 @@ export default function Register() {
                         </>
                     )}
                     {/* Price - ScreenShot */}
+
                     <div className="flex flex-col md:flex-row gap-x-5">
                         <div className="flex-1 flex-shrink mb-2">
                             <div className="text-white mb-2">Charges</div>
                             <div className="text-gray-300 flex-1 h-[40px] border flex items-center justify-center border-[#444] rounded text-center">
-                                {formData["event"]
-                                    ? formData["transition_amount"] || "Event not found"
+                                {feesPrice
+                                    ? feesPrice || "Event not found"
                                     : "Choose an Event first"}
                             </div>
                         </div>
                         <div className="flex-1"></div>
                     </div>
-
-
                     {/* Payment screenshot */}
                     <div className="flex flex-col mt-2">
-                        {formData["event"] && (
-                            <>
-                                <div className="mb-2">Scan this QR and Submit the transaction Id</div>
-                                <img
-                                    src="/payment-qr.jpg"
-                                    className="w-full md:w-[50%] mx-auto rounded"
-                                />
-                                <Input
-                                    className={"mt-3"}
-                                    label={"Transaction ID"}
-                                    name={"transaction_id"}
-                                    value={formData["transaction_id"]}
-                                    onChange={handleInput}
-                                    required
-                                />
-                            </>
-                        )}
+                        <>
+                            <div className="mb-2">Scan this QR and Submit the transaction Id</div>
+                            <img
+                                src="/payment-qr.jpg"
+                                className="w-full md:w-[50%] mx-auto rounded"
+                            />
+                            <Input
+                                className={"mt-3"}
+                                label={"Transaction ID"}
+                                name={"transaction_id"}
+                                value={formData["transaction_id"]}
+                                onChange={handleInput}
+                                required
+                            />
+                            <Input
+                                className={"mt-3"}
+                                label={"UPI ID"}
+                                name={"upi_id"}
+                                value={formData["upi_id"]}
+                                onChange={handleInput}
+                                required
+                            />
+                        </>
                     </div>
 
                     <Info
@@ -363,7 +505,6 @@ const events = [
     "Dronovation",
     "Enginova",
     "Extempore Debate",
-    "Group Discussion",
     "Hydrophilia",
     "IGNITION WAR",
     "Jagga Jasoos",
@@ -376,6 +517,7 @@ const events = [
     "Spectrum",
     "SnapShot",
     "UIT Castle",
+    "Vartalap",
     "Vidya Vrith",
     "Vijay Ghosh",
     "Vocal Vogue"
@@ -387,7 +529,6 @@ const teamMembersAllowed = [
     ["Duet", "Quartet"],
     ["Duet", "Quartet"],
     ["Solo", "Duet", "Trio", "Quartet"],
-    ["Solo"],
     ["Duet", "Quartet"],
     ["Solo"],
     ["Trio", "Quartet", "Quintet"],
@@ -397,59 +538,86 @@ const teamMembersAllowed = [
     ["Solo", "Duet"],
     ["Duet", "Quartet"],
     ["Duet", "Quintet"],
+    { "Dance": ["Solo", "Duet"], "Singing": ["Solo", "Duet"], "Modelling": ["Solo", "Duet"], "CosPlay": ["Solo"] },
     ["Solo", "Duet", "Quartet"],
     ["Solo", "Duet", "Quartet"],
-    ["Solo", "Duet", "Quartet"],
+    { "Group Discussion": ["Solo"], "Debate": ["Solo", "Duet", "Trio", "Quartet"] },
     ["Solo", "Duet"],
     ["Trio", "Quartet"],
     ["Solo"]
 ]
 const feesAll = [
-    [500, 500],
-    [50, 100],
-    [70, 100],
-    [200, 200],
-    [100, 200],
-    [150, 200],
     [100, 150],
-    [500],
-    [200],
-    [100],
-    [1500],
-    [70, 100],
-    [150, 200],
-    [200],
-    [500],
-    [250],
-    [{ "Dance": 150, "Singing": 150, "Modelling": 100, "Cosplay": 100 }, { "Dance": 400, "Singing": 200 }],
-    [80, 100],
+    [50, 80],
     [80, 150],
     [80, 150],
-    [200, 200],
-    [150]
+    [80, 150],
+    [50, 80, 100, 150],
+    [80, 150],
+    [50],
+    [100, 150, 200],
+    [300],
+    [50],
+    [80, 150],
+    [50, 80],
+    [80, 150],
+    [80, 200],
+    {
+        Dance: [50, 80],
+        Singing: [50, 80],
+        Modelling: [50, 80],
+        CosPlay: [50]
+    },
+    [50, 80, 150],
+    [50, 80, 150],
+    {
+        "Group Discussion": [50],
+        Debate: [50, 80, 100, 150]
+    },
+    [50, 80],
+    [100, 150],
+    [50]
+];
 
+const eventSpectrum = [
+    "Dance",
+    "Singing",
+    "Modelling",
+    "CosPlay"
+]
+const eventVartalap = [
+    "Group Discussion",
+    "Debate"
 ]
 const feesUit = [
-    [20, 10],
-    [10, 20],
-    [10, 30],
-    [30, 10],
-    [10, 20],
-    [20, 30],
-    [40, 50],
-    [60],
-    [59],
-    [48],
-    [10],
-    [90, 12],
-    [12, 23],
-    [23],
-    [43],
-    [54],
-    [{ "Dance": 13, "Singing": 13, "Modelling": 13, "Cosplay": 21 }, { "Dance": 1, "Singing": 1 }],
-    [12, 13],
-    [12, 23],
-    [80, 15],
-    [50, 10],
-    [23]
-]
+    [80, 130],
+    [40, 70],
+    [70, 130],
+    [70, 130],
+    [70, 130],
+    [40, 70, 80, 130],
+    [70, 130],
+    [40],
+    [80, 130, 180],
+    [280],
+    [40],
+    [70, 130],
+    [40, 70],
+    [70, 130],
+    [70, 180],
+    {
+        Dance: [40, 70],
+        Singing: [40, 70],
+        Modelling: [40, 70],
+        CosPlay: [40]
+    },
+    [40, 70, 130],
+    [40, 70, 130],
+    {
+        "Group Discussion": [40],
+        Debate: [40, 70, 80, 130]
+    },
+    [40, 70],
+    [80, 130],
+    [40]
+];

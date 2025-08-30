@@ -103,7 +103,7 @@ function EventDesc({ event }) {
           </div>
           <h2 className='text-white font-bold text-4xl my-3'>Fees for UIT Students</h2>
           <div className='text-white'>
-            {eventName.registrationFessUIT.map((feeArray, index) => (
+            {eventName.eventName!=="Kabaddi Championship" && (eventName.registrationFessUIT.map((feeArray, index) => (
               <div key={index}>
                 <div> Fees for {index + 1} participant(s) is/are: </div>
                 {feeArray.map((obj, index) => (
@@ -114,16 +114,21 @@ function EventDesc({ event }) {
                           {key} : {obj[key]}
                         </li>
                       ))
-
                     }
                   </ul>
                 ))}
               </div>
-            ))}
+            )))}
+            {eventName.eventName==="Kabaddi Championship" && (
+              <>
+              <div> Fees for a Team is/are: </div>
+              <ul className='list-disc px-8'> <li>400</li> </ul>
+              </>
+            )}
           </div>
           <h2 className='text-white font-bold text-4xl my-3'>Fees for Other Students</h2>
           <div className='text-white'>
-            {eventName.registrationFeesAll.map((feeArray, index) => (
+            {eventName.eventName!=="Kabaddi Championship" && (eventName.registrationFeesAll.map((feeArray, index) => (
               <div key={index}>
                 <div> Fees for {index + 1} participant(s) is/are: </div>
                 {feeArray.map((obj, index) => (
@@ -139,7 +144,13 @@ function EventDesc({ event }) {
                   </ul>
                 ))}
               </div>
-            ))}
+            )))}
+            {eventName.eventName==="Kabaddi Championship" && (
+              <>
+              <div> Fees for a Team is/are: </div>
+              <ul className='px-8 list-disc'> <li >400</li> </ul>
+              </>
+            )}
           </div>
           {eventName.judgingCriteria && (
             <>
