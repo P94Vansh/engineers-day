@@ -199,7 +199,7 @@ export const NavbarLogo = () => {
         alt="logo"
         width={30}
         height={30} />
-      <span className="font-medium text-black dark:text-white">Engineers' Day</span>
+      <span className="font-medium text-black dark:text-white">Engineers' Day Mahotsava 2.0</span>
     </a>
   );
 };

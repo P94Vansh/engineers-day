@@ -70,35 +70,52 @@ export default function Home() {
   const words = 'Where Innovation meets Elevation'
   return (
     <>  
-      <BackgroundLines className=" h-screen flex items-center justify-center w-full flex-col px-4">
-        <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-          Engineers&apos; Day Mahotsava <br/> 2.0
+      <div
+      className="relative h-screen w-full 
+                 bg-[url('/mobile.jpg')] md:bg-[url('/desktop.jpg')] 
+                 bg-cover bg-center"
+    >
+      {/* Overlay for readability */}
+      <div className="absolute inset-0 bg-black/40"></div>
+
+      {/* Content */}
+      <div className="relative flex flex-col items-center justify-center h-full px-4 text-center">
+        <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 font-bold tracking-tight">
+          Engineers&apos; Day Mahotsava <br /> 2.0
         </h2>
-        
+
         <TextGenerateEffect words={words} />
-        <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:text-white md:text-2xl lg:text-3xl font-sans py-2 md:pt-10 relative z-20 font-bold tracking-tight">
+
+        <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:text-white md:text-2xl lg:text-3xl font-sans py-2 md:pt-10 font-bold tracking-tight">
           Organised By:
         </h2>
-        <p className="max-w-xl mx-auto text-md md:text-2xl text-neutral-300 dark:text-white text-center">
-          CORE COMMITTEE UIT
-        </p>
+        <p
+  className="max-w-xl mx-auto text-md md:text-2xl text-white text-center
+             px-6 py-2 rounded-full 
+             bg-white/20 backdrop-blur-sm"
+>
+  CORE COMMITTEE UIT
+</p>
+
+
         <div className="flex md:flex-row flex-col gap-5 pt-4 mt-3">
           <Button
             borderRadius="1.75rem"
-            onClick={()=> router.push('/technical-events')}
+            onClick={() => router.push("/technical-events")}
             className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             Technical Events
           </Button>
           <Button
             borderRadius="1.75rem"
-            onClick={()=> router.push('/non-technical-events')}
+            onClick={() => router.push("/non-technical-events")}
             className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             Non-Technical Events
           </Button>
         </div>
-      </BackgroundLines>
+      </div>
+    </div>
       <hr className="bg-white h-0.5" />
       <div className="w-full rounded-md flex flex-col md:justify-center  antialiased bg-grid-white/[0.02] relative overflow-hidden items-center">
         <TypewriterEffectSmooth words={[{ text: 'Why' }, { text: "Engineers'" }, { text: "Day?" }]} />

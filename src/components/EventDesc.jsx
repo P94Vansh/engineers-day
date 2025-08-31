@@ -453,25 +453,7 @@ function EventDesc({ event }) {
           </div>
           <h2 className='text-white font-bold text-4xl my-3'>Fees for UIT Students</h2>
           <div className='text-white'>
-            {eventName.subEvent2.registrationFessUIT.map((feeArray, index) => (
-                feeArray.length>0 && (
-                  
-                  <div key={index}>
-                    <div> Fees for {index + 1} participant(s) is/are: </div>
-                    {feeArray.map((obj, index) => (
-                      <ul className='list-disc px-8' key={index}>
-                        {
-                          Object.keys(obj).map((key, index) => (
-                            <li key={index}>
-                              {key} : {obj[key]}
-                            </li>
-                          ))
-                        }
-                      </ul>
-                    ))}
-                  </div>
-
-            )))}
+           
               <>
               <div> Fees for a Team is/are: </div>
               <ul className='list-disc px-8'> <li>400</li> </ul>
@@ -479,24 +461,10 @@ function EventDesc({ event }) {
           </div>
           <h2 className='text-white font-bold text-4xl my-3'>Fees for Other Students</h2>
           <div className='text-white'>
-            {eventName.subEvent2.registrationFeesAll.map((feeArray, index) => (
-                feeArray.length>0 && (
-              <div key={index}>
-                <div> Fees for {index + 1} participant(s) is/are: </div>
-                {feeArray.map((obj, index) => (
-                  <ul className='list-disc px-8' key={index}>
-                    {
-                      Object.keys(obj).map((key, index) => (
-                        <li key={index}>
-                          {key} : {obj[key]}
-                        </li>
-                      ))
-
-                    }
-                  </ul>
-                ))}
-              </div>
-            )))}
+            <>
+              <div> Fees for a Team is/are: </div>
+              <ul className='list-disc px-8'> <li>400</li> </ul>
+              </>
           </div>
           {eventName.subEvent2.judgingCriteria && (
             <>
