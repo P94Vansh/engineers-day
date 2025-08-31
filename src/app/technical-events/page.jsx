@@ -14,7 +14,7 @@ function page() {
       {data.map((event,index)=>(
         event.eventType==="Technical" && (
           <Link  key={index} href={`/event/${event.slug}`}>
-        <ImageBoxEv src="/event1.jpg" title={event.eventName}/>
+        <ImageBoxEv src={event.src} title={event.eventName}/>
         </Link>
         )
       ))}

@@ -2,6 +2,7 @@
     {
         "eventName": "Spectrum",
         "slug": "spectrum",
+        "src":"/1.png",
         "actualEventName": "Dance, Singing, Modelling & Cosplay Competition",
         "clubName": "Core Committee",
         "eventType": "Non-Technical",
@@ -92,6 +93,7 @@
     {
         "eventName": "Vocal Vogue",
         "slug": "vocal-vogue",
+        "src":"/2.png",
         "actualEventName": "Open Mic & Talent Hunt",
         "clubName": "Core Committee",
         "eventType": "Non-Technical",
@@ -164,6 +166,7 @@
     {
         "eventName": "Jagga Jasoos",
         "slug": "jagga-jasoos",
+        "src":"/3.png",
         "actualEventName": "Treasure Hunt",
         "clubName": "Vedic club",
         "eventType": "Non-Technical",
@@ -260,6 +263,7 @@
     {
         "eventName": "Kabaddi Championship",
         "slug": "kabaddi-championship",
+        "src":"/4.png",
         "actualEventName": "Kabaddi",
         "clubName": "Sports Committee UIT",
         "eventType": "Non-Technical",
@@ -325,6 +329,7 @@
     {
         "eventName": "UIT Castle",
         "slug": "uit-castle",
+        "src":"/5.png",
         "actualEventName": "E.D. Fun Race",
         "clubName": "Expressions: The Literary Club UIT",
         "eventType": "Non-Technical",
@@ -444,6 +449,7 @@
     {
         "eventName": "SnapShot",
         "slug": "snapshot",
+        "src":"/6.png",
         "actualEventName": "SnapShot-Frame the Moment",
         "clubName": "Aurora CEC Club",
         "eventType": "Non-Technical",
@@ -510,6 +516,7 @@
     {
         "eventName": "Vijay Ghosh",
         "slug": "vijay-ghosh",
+        "src":"/7.png",
         "actualEventName": "Free Fire",
         "clubName": "Uttaranchal E-Sports Cell",
         "eventType": "Technical",
@@ -579,6 +586,7 @@
     {
         "eventName": "CodeStorm",
         "slug": "code-storm",
+        "src":"/8.png",
         "actualEventName": "Hackathon",
         "clubName": "Uttaranchal University Computer Science Club",
         "eventType": "Technical",
@@ -666,6 +674,7 @@
     {
         "eventName": "Vidya Vrith",
         "slug": "vidya-vrith",
+        "src":"/9.png",
         "actualEventName": "Technical Quiz",
         "clubName": "Uttaranchal University Computer Science Club",
         "eventType": "Technical",
@@ -736,6 +745,7 @@
     {
         "eventName": "Ignition War",
         "slug": "ignition-war",
+        "src":"/10.png",
         "actualEventName": "Rocketry Challenge",
         "clubName": "Aerospace club",
         "eventType": "Technical",
@@ -818,6 +828,7 @@
     {
         "eventName": "Dronovation",
         "slug": "dronovation",
+        "src":"/11.png",
         "actualEventName": "New design of Drone & RC Plane",
         "clubName": "Aerospace club ",
         "eventType": "Technical",
@@ -897,6 +908,7 @@
     {
         "eventName": "Hydrophilia",
         "slug": "hydrophilia",
+        "src":"/12.png",
         "actualEventName": "Water Treatment Simulation",
         "clubName": "Nirmaan club",
         "eventType": "Technical",
@@ -980,6 +992,7 @@
     {
         "eventName": "Metal Forging",
         "slug": "metal-forging",
+        "src":"/13.png",
         "actualEventName": "Metal Forging",
         "clubName": "UU-MEC",
         "eventType": "Technical",
@@ -1055,6 +1068,7 @@
     {
         "eventName": "War-tā-lab",
         "slug": "war-ta-lab",
+        "src":"/14.png",
         "actualEventName": "War-tā-lab",
         "clubName": "Expressions; The Literary Club",
         "eventType": "Non-Technical",
@@ -1224,6 +1238,7 @@
     {
         "eventName": "Colour Splash",
         "slug": "colour-splash",
+        "src":"/15.png",
         "actualEventName": "Faces of Colours",
         "clubName": "Aurora UIT-CEC",
         "eventType": "Non-Technical",
@@ -1301,6 +1316,7 @@
     {
         "eventName": "Nal Neel",
         "slug": "nal-neel",
+        "src":"/16.png",
         "actualEventName": "Bridge Design Challenge",
         "clubName": "Nirmaan Club",
         "eventType": "Technical",
@@ -1384,6 +1400,7 @@
     {
         "eventName": "Enginova",
         "slug": "enginova",
+        "src":"/17.png",
         "actualEventName": "Project Showcase",
         "clubName": "UU-MEC",
         "eventType": "Technical",
@@ -1479,6 +1496,7 @@
     {
         "eventName": "Cook Without Fire",
         "slug": "cook-without-fire",
+        "src":"/18.png",
         "actualEventName": "",
         "clubName": "UU-MEC",
         "eventType": "Non-Technical",
@@ -1548,6 +1566,7 @@
     {
         "eventName": "Kalakriti",
         "slug": "kalakriti",
+        "src":"/19.png",
         "actualEventName": "Poster Making Competition",
         "clubName": "Women Cell UIT",
         "eventType": "Non-Technical",
@@ -1617,6 +1636,7 @@
     {
         "eventName": "Scilife",
         "slug": "sci-life",
+        "src":"/20.png",
         "actualEventName": "Model Presentation",
         "clubName": "Vedic Club",
         "eventType": "Technical",
@@ -1706,6 +1726,7 @@
     {
         "eventName": "Mech War",
         "slug": "mech-war",
+        "src":"/21.png",
         "actualEventName": "Mech War – Clash of the Bots",
         "clubName": "Discipline Committee",
         "eventType": "Technical",
