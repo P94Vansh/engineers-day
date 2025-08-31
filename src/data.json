@@ -17,12 +17,8 @@
         ],
         "facultyCoordinators": [
             [
-                "Dr. Madhu Kirola",
-                "9897833556"
-            ],
-            [
-                "Dr. Jaspreet Hira",
-                "9560149127"
+                "Dr. Ruby Pant",
+                "8126732364"
             ]
         ],
         "eventGuids": [
@@ -35,7 +31,7 @@
         ],
         "auditionDateandTime": [
             "11th September",
-            "1:30 PM"
+            "9:30 AM"
         ],
         "auditionVenue": "UIT Seminar Hall",
         "actualDateandTime": [
@@ -60,7 +56,7 @@
             ],
             [
                 {
-                    "Dance": 400,
+                    "Dance": 250,
                     "Singing": 250
                 }
             ]
@@ -68,23 +64,23 @@
         "registrationFessUIT": [
             [
                 {
-                    "Dance": 40,
-                    "Singing": 40,
-                    "Modelling": 25,
-                    "Cosplay": 25
+                    "Dance": 100,
+                    "Singing": 100,
+                    "Modelling": 70,
+                    "Cosplay": 70
                 }
             ],
             [
                 {
-                    "Dance": 100,
-                    "Singing": 65
+                    "Dance": 200,
+                    "Singing": 200
                 }
             ]
         ],
         "judgingCriteria": [
             "Creativity & Originality (25%)",
             "Stage Presence & Confidence (25%)",
-            "Technical Skill (Dance/Singing/Modelling/Cosplay) (30%)",
+            "Skill (Dance/Singing/Modelling/Cosplay) (30%)",
             "Audience Engagement (20%)"
         ],
         "additionalNotes": [
@@ -101,8 +97,8 @@
         "eventType": "Non-Technical",
         "description": [
             "Vocal Vogue is an open mic and talent hunt that provides a platform for students to showcase their talents in singing, poetry, stand-up, storytelling, and other performing arts. The event consists of two rounds:",
-                "Preliminary Round (Auditions): Will be held on 11th September 2025 at UIT Seminar Hall.",
-                "Final Round: Selected participants will perform on 15th September near the Tuck Shop."
+            "Preliminary Round (Auditions): Will be held on 12th September 2025 at UIT Seminar Hall.",
+            "Final Round: Selected participants will perform on 15th September."
         ],
         "eventCoordinators": [
             [
@@ -127,18 +123,17 @@
         ],
         "auditionDateandTime": [
             "12th September 2025",
-            "10:30 AM"
+            "9:30 AM"
         ],
         "auditionVenue": "UIT Seminar Hall",
         "actualDateandTime": [
             "15th September 2025",
             "1:30 PM to 4:30 PM"
         ],
-        "actualVenue": "Near Tuck Shop",
+        "actualVenue": "Uttaranchal University",
         "eligibility": "Open to all students",
         "teamSize": [
-            "Solo",
-            "Duet for only Music/Dance"
+            "Solo"
         ],
         "registrationFeesAll": [
             [
@@ -150,7 +145,7 @@
         "registrationFessUIT": [
             [
                 {
-                    "Vocal": 40
+                    "Vocal": 100
                 }
             ]
         ],
@@ -158,7 +153,7 @@
             "Creativity & Originality (30%)",
             "Stage Presence & Confidence (25%)",
             "Audience Engagement (20%)",
-            "Technical Skill (singing/poetry/stand-up delivery etc.) (25%)"
+            "Skill (singing/poetry/stand-up delivery etc.) (25%)"
         ],
         "additionalNotes": [
             "Shortlisted participants from the auditions will be notified via email/WhatsApp.",
@@ -173,7 +168,7 @@
         "clubName": "Vedic club",
         "eventType": "Non-Technical",
         "description": [
-            "Rahasya – The Vedic Treasure Hunt is an adventurous clue-solving competition where participants will team up and embark on a thrilling quest inspired by Vedic wisdom and culture. Each team will decode a series of riddles, puzzles, and challenges that will lead them closer to the hidden treasure.Teams will consist of 3–5 participants, who will work together to crack each stage. The hunt will test their logic, teamwork, speed, and knowledge while keeping the excitement alive at every step. The first team to solve all clues and reach the treasure will be declared the winner."
+            "Jagga Jasoos – The Vedic Treasure Hunt is an adventurous clue-solving competition where participants will team up and embark on a thrilling quest inspired by Vedic wisdom and culture. Each team will decode a series of riddles, puzzles, and challenges that will lead them closer to the hidden treasure.Teams will consist of 3–5 participants, who will work together to crack each stage. The hunt will test their logic, teamwork, speed, and knowledge while keeping the excitement alive at every step. The first team to solve all clues and reach the treasure will be declared the winner."
         ],
         "eventCoordinators": [
             [
@@ -204,16 +199,11 @@
             "The first team to correctly find the final treasure will be declared the winner.",
             "In case of a tie, winners will be decided based on the time taken and accuracy in solving clues."
         ],
-        "auditionDateandTime": [
-            "11th September",
-            "1:30 PM"
-        ],
-        "auditionVenue": "UIT Seminar Hall",
         "actualDateandTime": [
             "15th September 2025",
-            "1:30 PM to 4:30 PM"
+            "2:30 PM to 4:30 PM"
         ],
-        "actualVenue": "Near Tuck Shop",
+        "actualVenue": "UIT Seminar Hall",
         "eligibility": "Open to all students",
         "teamSize": [
             "Trio",
@@ -221,24 +211,45 @@
             "Quintet"
         ],
         "registrationFeesAll": [
+            [],
+            [],
+            [
+                {
+                    "Jagga Jasoos": 200
+                }
+            ],
+            [
+                {
+                    "Jagga Jasoos": 200
+                }
+            ],
+            [
+                {
+                    "Jagga Jasoos": 200
+                }
+            ]
+        ],
+        "registrationFessUIT": [
+            [],
+            [],
+            [
+                {
+                    "Vocal": 100
+                }
+            ],
+            [
+                {
+                    "Vocal": 100
+                }
+            ],
             [
                 {
                     "Vocal": 100
                 }
             ]
         ],
-        "registrationFessUIT": [
-            [
-                {
-                    "Vocal": 25
-                }
-            ]
-        ],
         "judgingCriteria": [
-            "Creativity & Originality (30%)",
-            "Stage Presence & Confidence (25%)",
-            "Audience Engagement (20%)",
-            "Technical Skill (singing/poetry/stand-up delivery etc.) (25%)"
+            "winners will be decided based on the time taken and accuracy in solving clues"
         ],
         "additionalNotes": [
             "Shortlisted participants from the auditions will be notified via email/WhatsApp.",
@@ -299,7 +310,7 @@
         "registrationFessUIT": [
             [
                 {
-                    "Sports": 400
+                    "Sports": 1500
                 }
             ]
         ],
@@ -377,12 +388,23 @@
         "teamSize": [
             "Solo",
             "Duet",
+            "Trio",
             "Quartet"
         ],
         "registrationFeesAll": [
             [
                 {
-                    "UITCASTLE": 80
+                    "UITCASTLE": 150
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 150
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 150
                 }
             ],
             [
@@ -394,12 +416,22 @@
         "registrationFessUIT": [
             [
                 {
-                    "UITCASTLE": 20
+                    "UITCASTLE": 80
                 }
             ],
             [
                 {
-                    "UITCASTLE": 40
+                    "UITCASTLE": 150
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 80
+                }
+            ],
+            [
+                {
+                    "UITCASTLE": 80
                 }
             ]
         ],
@@ -446,21 +478,19 @@
         "actualVenue": "Board Floor UIT",
         "eligibility": "Open to all students",
         "teamSize": [
-            "Solo",
-            "Duet",
-            "Quartet"
+            "Solo"
         ],
         "registrationFeesAll": [
             [
                 {
-                    "Snap Shot": "50"
+                    "Snap Shot": "70"
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "Snap Shot": "20"
+                    "Snap Shot": "50"
                 }
             ]
         ],
@@ -523,7 +553,7 @@
         ],
         "actualDateandTime": [
             "15th September 2025",
-            "10:30 AM to 1:30 PM"
+            "9:30 AM to 1:30 PM"
         ],
         "actualVenue": "UIT Computer Lab",
         "eligibility": "Open to all students",
@@ -541,7 +571,7 @@
         "registrationFessUIT": [
             [
                 {
-                    "UITCASTLE": 200
+                    "Free Fire": 200
                 }
             ]
         ]
@@ -585,7 +615,7 @@
         ],
         "actualDateandTime": [
             "15th September 2025",
-            "9:30 AM to 4:30 PM"
+            "11:00 AM to 4:30 PM"
         ],
         "actualVenue": "Room No. 004-005 & 009-010",
         "eligibility": "Open to all students",
@@ -670,7 +700,7 @@
         ],
         "actualDateandTime": [
             "15th September 2025",
-            "9:30 AM to 1:30 PM"
+            "11:30 AM to 2:30 PM"
         ],
         "actualVenue": "Seminar Hall",
         "eligibility": "Open to all students",
@@ -680,24 +710,14 @@
         "registrationFeesAll": [
             [
                 {
-                    "VidyaVrith": 80
-                }
-            ],
-            [
-                {
-                    "VidyaVrith": 150
+                    "VidyaVrith": 70
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "VidyaVrith": 20
-                }
-            ],
-            [
-                {
-                    "VidyaVrith": 40
+                    "VidyaVrith": 50
                 }
             ]
         ],
@@ -743,7 +763,7 @@
         ],
         "actualDateandTime": [
             "15th September 2025",
-            "9:30 AM to 11:30 AM"
+            "11:00 AM to 1:30 PM"
         ],
         "actualVenue": "University Ground",
         "eligibility": "Open to all students",
@@ -760,7 +780,7 @@
             ],
             [
                 {
-                    "IgnitionWar":200
+                    "IgnitionWar": 200
                 }
             ],
             [
@@ -770,21 +790,21 @@
             ]
         ],
         "registrationFessUIT": [
-             [],
+            [],
             [],
             [
                 {
-                    "IgnitionWar": 50
+                    "IgnitionWar": 150
                 }
             ],
             [
                 {
-                    "IgnitionWar":50
+                    "IgnitionWar": 150
                 }
             ],
             [
                 {
-                    "IgnitionWar": 50
+                    "IgnitionWar": 150
                 }
             ]
         ],
@@ -823,7 +843,7 @@
         ],
         "actualDateandTime": [
             "15th September 2025",
-            "11:30 AM to 1:30 pm"
+            "1:30 PM to 3:30 PM"
         ],
         "actualVenue": "University Ground",
         "eligibility": "Open to all students",
@@ -853,17 +873,17 @@
             [],
             [
                 {
-                    "Dronovation": 50
+                    "Dronovation": 150
                 }
             ],
             [
                 {
-                    "Dronovation": 50
+                    "Dronovation": 150
                 }
             ],
             [
                 {
-                    "Dronovation": 50
+                    "Dronovation": 150
                 }
             ]
         ],
@@ -919,17 +939,17 @@
             [],
             [
                 {
-                    "Hydrophilia": 500
+                    "Hydrophilia": 400
                 }
             ],
             [
                 {
-                    "Hydrophilia": 500
+                    "Hydrophilia": 400
                 }
             ],
             [
                 {
-                    "Hydrophilia": 500
+                    "Hydrophilia": 400
                 }
             ]
         ],
@@ -937,17 +957,17 @@
             [],
             [
                 {
-                    "Hydrophilia": 125
+                    "Hydrophilia": 300
                 }
             ],
             [
                 {
-                    "Hydrophilia": 125
+                    "Hydrophilia": 300
                 }
             ],
             [
                 {
-                    "Hydrophilia": 125
+                    "Hydrophilia": 300
                 }
             ]
         ],
@@ -960,7 +980,7 @@
     {
         "eventName": "Metal Forging",
         "slug": "metal-forging",
-        "actualEventName": "Water Treatment Simulation",
+        "actualEventName": "Metal Forging",
         "clubName": "UU-MEC",
         "eventType": "Technical",
         "description": [
@@ -994,7 +1014,7 @@
         ],
         "actualDateandTime": [
             "15th September 2025",
-            "11:30 AM to 1:30 pm"
+            "2:30 PM to 4:30 PM"
         ],
         "actualVenue": "2nd Floor UIT",
         "eligibility": "Open to all students",
@@ -1005,14 +1025,24 @@
         "registrationFeesAll": [
             [
                 {
-                    "MetalFogging": 200
+                    "MetalForging": 150
+                }
+            ],
+            [
+                {
+                    "MetalForging": 200
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "MetalFogging": 50
+                    "MetalForging": 100
+                }
+            ],
+            [
+                {
+                    "MetalForging": 150
                 }
             ]
         ],
@@ -1022,16 +1052,14 @@
             "Functionality(40%)"
         ]
     },
-
-
     {
         "eventName": "War-tā-lab",
         "slug": "war-ta-lab",
         "actualEventName": "War-tā-lab",
         "clubName": "Expressions; The Literary Club",
         "eventType": "Non-Technical",
-        "subEvent1":{
-            "name":"Group Discussion",
+        "subEvent1": {
+            "name": "Group Discussion",
             "description": [
                 "War-tā-lab (Group Discussion) is an extempore discussion-based competition where individuals participate in groups and discuss a given topic spontaneously. Each group will consist of 6–8 participants who will be given 2–3 minutes to think before the discussion begins. The GD will last for 10–12 minutes, where participants will be judged on their content, communication, listening, and ability to drive the discussion forward. Top performers from each group advance to the final round."
             ],
@@ -1071,51 +1099,17 @@
             "actualVenue": "ClassRoom(s) UIT",
             "eligibility": "Open to all students",
             "teamSize": [
-                "Sextet",
-                "Septet",
-                "Octet"
+                "Solo"
             ],
             "registrationFeesAll": [
-                [],
-                [],
-                [],
-                [],
-                [],
                 [
-                    {
-                        "Group Disucssion":120
-                    }
-                ],
-                [
-                    {
-                        "Group Disucussion": 140
-                    }
-                ],
-                [
-                    {
-                        "Group Disucussion": 160
-                    }
+                    {"Group Disucssion": 80}
                 ]
             ],
             "registrationFessUIT": [
-                [],
-                [],
-                [],
-                [],
-                [],
                 [
                     {
-                        "Group Disucssion":120
-                    }
-                ],
-                [
-                    {
-                        "Group Disucussion": 140
-                    }
-                ],
-                [
-                    {
-                        "Group Disucussion": 160
+                        "Group Disucssion": 50
                     }
                 ]
             ],
@@ -1132,8 +1126,8 @@
                 "Participation certificates for all."
             ]
         },
-        "subEvent2":{
-            "name":"Extempore Debate",
+        "subEvent2": {
+            "name": "Extempore Debate",
             "description": [
                 "War-tā-lab is an extempore debate competition designed like a knockout tournament. Teams will be assigned a motion/topic on the spot and given 2–3 minutes to prepare. Each team will present arguments (For/Against), followed by rebuttals. Winners progress through quarterfinals, semifinals, and finals until the champion team emerges."
             ],
@@ -1167,16 +1161,13 @@
             "actualVenue": "Seminar Hall, UIT",
             "eligibility": "Open to all students",
             "teamSize": [
-                "Solo",
-                "Duo",
-                "Trio"
+                "Group"
             ],
             "registrationFeesAll": [
                 [
                     {
                         "Extempore Debate": 40
                     }
-                    
                 ],
                 [
                     {
@@ -1199,7 +1190,6 @@
                     {
                         "Extempore Debate": 40
                     }
-                    
                 ],
                 [
                     {
@@ -1231,8 +1221,6 @@
             ]
         }
     },
-
-
     {
         "eventName": "Colour Splash",
         "slug": "colour-splash",
@@ -1281,20 +1269,25 @@
         "registrationFeesAll": [
             [
                 {
-                    "Colour Splash": 50
-                },
-                {
-                    "Colour Splash": 100
+                    "Colour Splash": 70
+                }
+                
+            ],
+            [
+{
+                    "Colour Splash": 70
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "Colour Splash": 15
-                },
+                    "Colour Splash": 50
+                }
+            ],
+            [
                 {
-                    "Colour Splash": 20
+                    "Colour Splash": 50
                 }
             ]
         ],
@@ -1349,17 +1342,17 @@
             [],
             [
                 {
-                    "Nal Neel": 500
+                    "Nal Neel": 400
                 }
             ],
             [
                 {
-                    "Nal Neel": 500
+                    "Nal Neel": 400
                 }
             ],
             [
                 {
-                    "Nal Neel": 500
+                    "Nal Neel": 400
                 }
             ]
         ],
@@ -1367,17 +1360,17 @@
             [],
             [
                 {
-                    "Nal Neel": 125
+                    "Nal Neel": 300
                 }
             ],
             [
                 {
-                    "Nal Neel": 125
+                    "Nal Neel": 300
                 }
             ],
             [
                 {
-                    "Nal Neel": 125
+                    "Nal Neel": 300
                 }
             ]
         ],
@@ -1391,7 +1384,7 @@
     {
         "eventName": "Enginova",
         "slug": "enginova",
-        "actualEventName": "Unleashing Innovation",
+        "actualEventName": "Project Showcase",
         "clubName": "UU-MEC",
         "eventType": "Technical",
         "description": [
@@ -1436,44 +1429,44 @@
         "registrationFeesAll": [
             [
                 {
-                    "EngiNova": 100
+                    "EngiNova": 200
                 }
             ],
             [
                 {
-                    "EngiNova":200
+                    "EngiNova": 200
                 }
             ],
             [
                 {
-                    "EngiNova":200
+                    "EngiNova": 200
                 }
             ],
             [
                 {
-                    "EngiNova":200
+                    "EngiNova": 200
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "EngiNova": 25
+                    "EngiNova": 150
                 }
             ],
             [
                 {
-                    "EngiNova":50
+                    "EngiNova": 150
                 }
             ],
             [
                 {
-                    "EngiNova":50
+                    "EngiNova": 150
                 }
             ],
             [
                 {
-                    "EngiNova":50
+                    "EngiNova": 150
                 }
             ]
         ],
@@ -1486,7 +1479,7 @@
     {
         "eventName": "Cook Without Fire",
         "slug": "cook-without-fire",
-        "actualEventName": "Women Cell UIT",
+        "actualEventName": "",
         "clubName": "UU-MEC",
         "eventType": "Non-Technical",
         "description": [
@@ -1531,19 +1524,13 @@
             [
                 {
                     "CookWithoutFire": 70
-                },
-                {
-                    "CookWithoutFire": 100
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "CookWithoutFire": 25
-                },
-                {
-                    "CookWithoutFire": 35
+                    "CookWithoutFire": 50
                 }
             ]
         ],
@@ -1553,7 +1540,7 @@
             "Taste & Health factor (25%)",
             "Cleanliness & Hygiene (20%)"
         ],
-        "additionalNotes":[
+        "additionalNotes": [
             "Participants must report 15 minutes before the event.",
             "Results will be announced on the same day."
         ]
@@ -1606,19 +1593,13 @@
             [
                 {
                     "Kalakriti": 70
-                },
-                {
-                    "Kalakriti": 100
                 }
             ]
         ],
         "registrationFessUIT": [
             [
                 {
-                    "kalakriti": 25
-                },
-                {
-                    "kalakriti": 35
+                    "kalakriti": 50
                 }
             ]
         ],
@@ -1628,7 +1609,7 @@
             "Visual Impact & Presentation (25%)",
             "Neatness & Clarity (20%)"
         ],
-        "additionalNotes":[
+        "additionalNotes": [
             "Participants must report 15 minutes before the event.",
             "Results will be announced on the same day."
         ]
@@ -1639,7 +1620,8 @@
         "actualEventName": "Model Presentation",
         "clubName": "Vedic Club",
         "eventType": "Technical",
-        "description": [ "Sci Life – Vedic & Technical Model Presentation is a competition that encourages participants to design and present models integrating Vedic knowledge with modern technology. The event aims to promote innovation, creativity, and practical applications rooted in cultural wisdom. Models may be static, working, or digital, and must align with the given theme. Each team will present their idea within the allotted time, followed by a Q&A session. Judging will be based on theme relevance, innovation, technical accuracy, and presentation skills."
+        "description": [
+            "Sci Life – Vedic & Technical Model Presentation is a competition that encourages participants to design and present models integrating Vedic knowledge with modern technology. The event aims to promote innovation, creativity, and practical applications rooted in cultural wisdom. Models may be static, working, or digital, and must align with the given theme. Each team will present their idea within the allotted time, followed by a Q&A session. Judging will be based on theme relevance, innovation, technical accuracy, and presentation skills."
         ],
         "eventCoordinators": [
             [
@@ -1676,25 +1658,33 @@
         "eligibility": "Open to all students",
         "teamSize": [
             "Duet",
-            "Quintet"
+            "Quartet"
         ],
         "registrationFeesAll": [
+            [],
             [
                 {
-                    "scilife": 150
-                },
+                    "scilife": 200
+                }
+            ],
+            [],
+            [
                 {
-                    "sciflife": 250
+                    "scilife": 200
                 }
             ]
         ],
         "registrationFessUIT": [
+            [],
             [
                 {
                     "scilife": 150
-                },
+                }
+            ],
+            [],
+            [
                 {
-                    "scilife": 250
+                    "scilife": 150
                 }
             ]
         ],
@@ -1707,7 +1697,7 @@
             "Teamwork & Coordination (10 marks)",
             "Q&A Handling (5 marks)"
         ],
-        "additionalNotes":[
+        "additionalNotes": [
             "Winner gets certificate + prize trophy.",
             " Runner-up gets certificates.",
             " Participation certificates for all."
@@ -1719,7 +1709,8 @@
         "actualEventName": "Mech War – Clash of the Bots",
         "clubName": "Discipline Committee",
         "eventType": "Technical",
-        "description": [ "Mech War is an exciting robotics battle competition where student-built bots will compete against each other in a controlled arena. The event tests participants’ engineering skills, creativity, and strategic thinking. The primary goal is to design and build a bot capable of outperforming opponents through power, agility, and innovative design. It’s a thrilling combination of engineering and entertainment, designed to ignite the spirit of innovation among budding technocrats."
+        "description": [
+            "Mech War is an exciting robotics battle competition where student-built bots will compete against each other in a controlled arena. The event tests participants’ engineering skills, creativity, and strategic thinking. The primary goal is to design and build a bot capable of outperforming opponents through power, agility, and innovative design. It’s a thrilling combination of engineering and entertainment, designed to ignite the spirit of innovation among budding technocrats."
         ],
         "eventCoordinators": [
             [
@@ -1745,7 +1736,7 @@
         ],
         "actualDateandTime": [
             "16th September 2025",
-            "10:00 AM to 3:00 pm"
+            "9:00 AM to 12:30 pm"
         ],
         "actualVenue": "Ground Floor UIT",
         "eligibility": "Open to all students",
@@ -1754,22 +1745,30 @@
             "Quartet"
         ],
         "registrationFeesAll": [
+            [],
+            [],
             [
                 {
-                    "mechwar": 150
-                },
-                {
-                    "mechwar":200
+                    "mechwar": 350
                 }
-            ] 
+            ],
+            [
+                {
+                    "mechwar": 350
+                }
+            ]
         ],
         "registrationFessUIT": [
+            [],
+            [],
             [
                 {
-                    "mechwar":150
-                },
+                    "mechwar": 300
+                }
+            ],
+            [
                 {
-                    "mechwar":200
+                    "mechwar": 200
                 }
             ]
         ],
@@ -1779,7 +1778,7 @@
             "Points for damage inflicted & aggression",
             "Technical design & innovation (in special rounds)"
         ],
-        "additionalNotes":[
+        "additionalNotes": [
             "Strict safety measures will be followed for both participants and spectators.",
             "Winners will receive Certificates + Cash Prizes / Trophies.",
             "The event will be widely covered through photography & social media posts."

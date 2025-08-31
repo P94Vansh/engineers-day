@@ -12,10 +12,13 @@ const Footer = ({id}) => {
           Faculty Coordinator
         </div>
         <div className="md:flex-row flex flex-col md:gap-3 justify-center items-center">
-          <div className="text-white text-center text-lg ">Mr Mohit Kumar</div>
-          <div className="text-[#888]">(Assistant Professor,CSE)</div>
+          <div className="text-white text-center text-lg ">Dr. Madhu Kirola</div>
+          <div className="text-[#888]">(HOD,CSE)</div>
         </div>
-        
+        <div className="md:flex-row flex flex-col md:gap-3 justify-center items-center">
+          <div className="text-white text-center text-lg ">Prof.(Dr.) Jaspreet Hira</div>
+          <div className="text-[#888]">(HOD,ME)</div>
+        </div>
         <div className="text-center mt-5 text-xl text-blue-500 ">
           Student Coordinator
         </div>
@@ -23,7 +26,7 @@ const Footer = ({id}) => {
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
           Ishu Mishra <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+919193373770"}>- 9193373770 - </div>
           </div>
-          <div className="text-[#888]">(B.TECH CSE 3rd year)</div>
+          <div className="text-[#888]">(General Secretary, Core Commmitte UIT)</div>
         </div>
         
 
@@ -33,6 +36,24 @@ const Footer = ({id}) => {
         <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
           Vansh Gambhir <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+918979402739"}>- 8979402739 - </div>
+          </div>
+        </div>
+        <div className="text-center text-xl mt-8 text-blue-500 ">
+          For Technical Events
+        </div>
+        <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
+          <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
+          Ankur Verma 
+ <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+918979402739"}>- 7667222066 - </div>
+          </div>
+        </div>
+        <div className="text-center text-xl mt-8 text-blue-500 ">
+          For Non tech event queries
+        </div>
+        <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
+          <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
+          Simran
+<div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+918979402739"}>- 9520354625 - </div>
           </div>
         </div>
 

@@ -72,7 +72,7 @@ export default function Home() {
     <>  
       <BackgroundLines className=" h-screen flex items-center justify-center w-full flex-col px-4">
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-          Engineers&apos; Day Mahotsav
+          Engineers&apos; Day Mahotsava <br/> 2.0
         </h2>
         
         <TextGenerateEffect words={words} />
@@ -80,7 +80,7 @@ export default function Home() {
           Organised By:
         </h2>
         <p className="max-w-xl mx-auto text-md md:text-2xl text-neutral-300 dark:text-white text-center">
-          CORE COMITTEE,UIT
+          CORE COMMITTEE UIT
         </p>
         <div className="flex md:flex-row flex-col gap-5 pt-4 mt-3">
           <Button
@@ -130,7 +130,7 @@ export default function Home() {
         <TypewriterEffectSmooth words={typeWriterPatrons} />
         <div className="flex md:flex-row flex-col justify-center items-center ">
           <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Shri Jitender Joshi" pos="President,UU" />
-          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Mrs. Anuradha Joshi" pos="Vice President Sushila Devi Center for Professional Studies & Research" />
+          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Mrs. Anuradha Joshi" pos="Chair Person, Sushila Devi Center for Professional Studies & Research" />
 
           <ImageBox src="/vc.jpg" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,UU" />
         </div>
@@ -144,6 +144,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <ImageBox src="/deansir.jpg" title="Convener" name="Prof. (Dr.) Sumit Chaudhary" pos="Director,UIT" />
         <ImageBox src="/hodmam.jpg" title="Co-Convener" name="Dr. Madhu Kirola" pos="HOD (CSE), UIT" />
+        <ImageBox src="/jaspreetSir.jpg" title="Co-Convener" name="Prof.(Dr.) Jaspreet Hira" pos="HOD (ME), UIT" />
       </div>
       <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
         <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />

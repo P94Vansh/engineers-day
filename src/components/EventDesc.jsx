@@ -21,7 +21,16 @@ function EventDesc({ event }) {
       <>
       <div className='p-8'>
         
-          <h1 className='text-white font-bold text-5xl text-center'>{eventName.eventName}{" "}({eventName.actualEventName})</h1>
+          <h1 className='text-white font-bold text-5xl text-center'>{eventName.eventName}
+            {
+              eventName.eventName!=="Cook Without Fire" && (
+                <>
+                {" "}
+                ({eventName.actualEventName})
+                </>
+              )
+            }
+          </h1>
           <div className='w-full flex justify-center items-center py-8'>
           <Button
             onClick={()=> router.push('/register')}
@@ -87,8 +96,8 @@ function EventDesc({ event }) {
                 <li>
                   {
                     Object.keys(guid).map((val)=>(
-                      <>
-                      <div key={index}>{val}</div>
+                      <div key={index}>
+                      <div>{val}</div>
                       <ul className='text-white list-disc px-8'>
                       {
                         guid[val].map((val,index)=>(
@@ -98,7 +107,7 @@ function EventDesc({ event }) {
                         ))
                       }
                       </ul>
-                      </>
+                      </div>
                     ))
                   }
                 </li>
@@ -161,7 +170,7 @@ function EventDesc({ event }) {
             {eventName.eventName==="Kabaddi Championship" && (
               <>
               <div> Fees for a Team is/are: </div>
-              <ul className='list-disc px-8'> <li>400</li> </ul>
+              <ul className='list-disc px-8'> <li>1500</li> </ul>
               </>
             )}
           </div>
@@ -190,7 +199,7 @@ function EventDesc({ event }) {
             {eventName.eventName==="Kabaddi Championship" && (
               <>
               <div> Fees for a Team is/are: </div>
-              <ul className='px-8 list-disc'> <li >400</li> </ul>
+              <ul className='px-8 list-disc'> <li >1500</li> </ul>
               </>
             )}
           </div>
