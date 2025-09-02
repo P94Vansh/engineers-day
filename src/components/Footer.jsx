@@ -16,13 +16,13 @@ const Footer = ({id}) => {
           <div className="text-[#888]">(HOD,CSE)</div>
         </div>
         <div className="md:flex-row flex flex-col md:gap-3 justify-center items-center">
-          <div className="text-white text-center text-lg ">Dr. Gaurav Thakur</div>
+          <div className="text-white text-center text-lg ">Mr. Gaurav Thakur</div>
           <div className="text-[#888]">(HOD,CE)</div>
         </div>
         <div className="text-center mt-5 text-xl text-blue-500 ">
           Student Coordinator
         </div>
-        <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
+        <div className=" mt-2 flex flex-col  justify-center items-center">
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
           Ishu Mishra <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+919193373770"}>- 9193373770 - </div>
           </div>
@@ -44,7 +44,7 @@ const Footer = ({id}) => {
         <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
           Ankur Verma 
- <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+918979402739"}>- 7667222066 - </div>
+ <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+917667222066"}>- 7667222066 - </div>
           </div>
         </div>
         <div className="text-center text-xl mt-8 text-blue-500 ">
@@ -53,7 +53,7 @@ const Footer = ({id}) => {
         <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
           Simran
-<div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+918979402739"}>- 9520354625 - </div>
+<div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+919520354625"}>- 9520354625 - </div>
           </div>
         </div>
 

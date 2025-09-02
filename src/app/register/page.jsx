@@ -29,7 +29,6 @@ export default function Register() {
             });
             if (response.ok) {
                 let data = await response.json();
-                console.log(data)
                 let { success } = data;
                 console.log(success)
                 if (success) {

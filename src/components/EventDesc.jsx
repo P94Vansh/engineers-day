@@ -26,7 +26,7 @@ function EventDesc({ event }) {
               : `url('/eventPageDesktop.jpg')` // replace with your image path
           }}
         >
-          <div className=' bg-black/50 p-5 font-serif'>
+          <div className=' bg-black/50 p-5' style={{ fontFamily: 'Algerian, sans-serif' }}>
 
             <h1 className='text-white font-bold text-5xl text-center pt-20'>{eventName.eventName}
               {
@@ -48,17 +48,34 @@ function EventDesc({ event }) {
               </Button>
             </div>
             <h2 className='text-white font-bold text-4xl my-3'>Event Description</h2>
-            <div>
-              {eventName.description.map((desc, index) => (
-                <ul key={index} className='text-white list-disc px-3'>
-                  <li>
-                    {desc}
-                  </li>
-                </ul>
-              ))}
-            </div>
+<div>
+  {
+    eventName.description.length === 1 ? (
+      <p className='text-white px-3'>{eventName.description[0]}</p>
+    ) : (
+      <ul className='text-white list-disc px-3'>
+        {eventName.description.map((desc, index) => (
+          <li key={index}>
+            {desc}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</div>
+
             <h2 className='text-white font-bold text-4xl my-3'>Student Coordinator(s)</h2>
-            {eventName.eventCoordinators.map((co, index) => (
+            {
+              eventName.eventCoordinators.length===1?(
+                <div className='text-white'>
+                 <div> Student Coordinator :-</div>
+                  <ul className='list-disc px-8 text-white'>
+                  <li>Name: {eventName.eventCoordinators[0][0]}</li>
+                  <li>Phone Number: {eventName.eventCoordinators[0][1]}</li>
+                  <li>Email: {eventName.eventCoordinators[0][2]} </li>
+                </ul>
+                  </div>
+              ):(eventName.eventCoordinators.map((co, index) => (
               <div key={index}>
                 <div className='text-white'>
                   {index + 1}. Student Coordinator :-
@@ -69,9 +86,18 @@ function EventDesc({ event }) {
                   <li>Email: {co[2]} </li>
                 </ul>
               </div>
-            ))}
+            )))
+            }
             <h2 className='text-white font-bold text-4xl my-3'>Faculty Coordinator(s)</h2>
-            {eventName.facultyCoordinators.map((co, index) => (
+            {
+            eventName.facultyCoordinators.length===1?(<div className='text-white'>
+                 <div> Faculty Coordinator :-</div>
+                  <ul className='list-disc px-8 text-white'>
+                  <li>Name: {eventName.facultyCoordinators[0][0]}</li>
+                  <li>Phone Number: {eventName.facultyCoordinators[0][1]}</li>
+                </ul>
+                  </div>):(
+            eventName.facultyCoordinators.map((co, index) => (
               <div key={index}>
                 <div className='text-white'>
                   {index + 1}. Faculty Coordinator :-
@@ -81,7 +107,9 @@ function EventDesc({ event }) {
                   <li>Phone Number: {co[1]}</li>
                 </ul>
               </div>
-            ))}
+            ))
+          )
+        }
             <h2 className='text-white font-bold text-4xl my-3'>Rules and Eligibility</h2>
             {
               eventName.eventName !== "UIT Castle" ? (
@@ -234,7 +262,7 @@ function EventDesc({ event }) {
 
 
       {eventName && eventName.eventName === "War-tā-lab" && (
-      <>
+        <>
           <div>
             <div
               className="relative bg-cover bg-center bg-no-repeat"
@@ -259,14 +287,10 @@ function EventDesc({ event }) {
                 <h2 className='text-white font-bold text-4xl my-3 text-center'>{eventName.subEvent1.name}</h2>
                 <h2 className='text-white font-bold text-4xl my-3'>Description</h2>
                 <div>
-
-                  {eventName.subEvent1.description.map((desc, index) => (
-                    <ul key={index} className='text-white list-disc px-3'>
-                      <li>
-                        {desc}
-                      </li>
-                    </ul>
-                  ))}
+                  
+                    <div className='text-white list-disc px-3'>
+                        {eventName.subEvent1.description[0]}
+                    </div>
                 </div>
                 <h2 className='text-white font-bold text-4xl my-3'>Student Coordinator(s)</h2>
                 {eventName.subEvent1.eventCoordinators.map((co, index) => (
@@ -282,17 +306,13 @@ function EventDesc({ event }) {
                   </div>
                 ))}
                 <h2 className='text-white font-bold text-4xl my-3'>Faculty Coordinator(s)</h2>
-                {eventName.subEvent1.facultyCoordinators.map((co, index) => (
-                  <div key={index}>
                     <div className='text-white'>
-                      {index + 1}. Faculty Coordinator :-
-                    </div>
+                      Faculty Coordinator :-
                     <ul className='list-disc px-8 text-white'>
-                      <li>Name: {co[0]}</li>
-                      <li>Phone Number: {co[1]}</li>
+                      <li>Name: {eventName.subEvent1.facultyCoordinators[0][0]}</li>
+                      <li>Phone Number: {eventName.subEvent1.facultyCoordinators[0][1]}</li>
                     </ul>
                   </div>
-                ))}
                 <h2 className='text-white font-bold text-4xl my-3'>Rules and Eligibility</h2>
                 <div>
                   {eventName.subEvent1.eventGuids.map((guid, index) => (
@@ -415,17 +435,13 @@ function EventDesc({ event }) {
                   </div>
                 ))}
                 <h2 className='text-white font-bold text-4xl my-3'>Faculty Coordinator(s)</h2>
-                {eventName.subEvent2.facultyCoordinators.map((co, index) => (
-                  <div key={index}>
-                    <div className='text-white'>
-                      {index + 1}. Faculty Coordinator :-
-                    </div>
+                 <div className='text-white'>
+                      Faculty Coordinator :-
                     <ul className='list-disc px-8 text-white'>
-                      <li>Name: {co[0]}</li>
-                      <li>Phone Number: {co[1]}</li>
+                      <li>Name: {eventName.subEvent2.facultyCoordinators[0][0]}</li>
+                      <li>Phone Number: {eventName.subEvent2.facultyCoordinators[0][1]}</li>
                     </ul>
                   </div>
-                ))}
                 <h2 className='text-white font-bold text-4xl my-3'>Rules and Eligibility</h2>
                 <div>
                   {eventName.subEvent2.eventGuids.map((guid, index) => (
@@ -494,14 +510,14 @@ function EventDesc({ event }) {
                     </div>
                   </>
                 )}
-                </div>
-                </div>
               </div>
-              <hr className='h-1 bg-white w-full' />
-            </>
-      )}
+            </div>
           </div>
-          )
+          <hr className='h-1 bg-white w-full' />
+        </>
+      )}
+    </div>
+  )
 }
 
-          export default EventDesc
+export default EventDesc

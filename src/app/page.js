@@ -61,11 +61,11 @@ export default function Home() {
     },
     { text: "Patrons" }
   ];
-  const points = ['Grand 2-day fest by the Core Committee', 'Mix of technical and non-technical events'
-    , 'Includes several technical events ranging from coding competition to robo wars',
-    'Several Non tech events included from Dj Mixes to soulful singing',
-    'Celebrates creativity, talent, and engineering brilliance',
-    'Platform to learn, compete, network and grow'
+  const points = ['Grand 2-day fest by the Core Committee.', 'Mix of technical and non-technical events.'
+    , 'Includes several technical events ranging from coding competition to robo wars.',
+    'Several Non tech events included from Dj Mixes to soulful singing.',
+    'Celebrates creativity, talent, and engineering brilliance.',
+    'Platform to learn, compete, network and grow.'
   ]
   const words = 'Where Innovation meets Elevation'
   return (
@@ -160,14 +160,14 @@ export default function Home() {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <ImageBox src="/deansir.jpg" title="Convener" name="Prof. (Dr.) Sumit Chaudhary" pos="Director,UIT" />
         <ImageBox src="/hodmam.jpg" title="Co-Convener" name="Dr. Madhu Kirola" pos="HOD (CSE), UIT" />
-        <ImageBox src="/gt.jpg" title="Co-Convener" name="Dr. Gaurav Thakur" pos="HOD (CE), UIT" />
+        <ImageBox src="/gt.jpg" title="Co-Convener" name="Mr. Gaurav Thakur" pos="HOD (CE), UIT" />
       </div>
       <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
         <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />
       </div>
       <hr className="bg-white h-0.5" />
       <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <Image src={'/UuLogo.jpg'} alt="University Logo" width={300} height={300} />
+        <Image src={'/UuLogo.jpg'} className="bg-white p-5 rounded-2xl" alt="University Logo" width={300} height={300} />
         <TypewriterEffectSmooth words={[{ text: 'About' }, { text: 'Uttaranchal' }, { text: 'Institute' }, { text: 'Of' }, { text: 'Technology' }]} />
         <div className="text-white font-serif md:text-2xl text-md p-3">Uttaranchal Institute of Technology (UIT), established in 2006 in Dehradun, is a premier engineering college under Uttaranchal University. UIT offers industry-aligned B.Tech and M.Tech programs, fostering innovation, research, and leadership. With modern infrastructure, expert faculty, and strong placement records, UIT empowers students to become globally competitive professionals. Its vibrant campus culture and academic excellence make it a top choice for aspiring engineers in Uttarakhand.</div>
       <div className="w-[40rem] h-40 relative">
