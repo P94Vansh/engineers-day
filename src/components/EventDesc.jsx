@@ -272,7 +272,7 @@ function EventDesc({ event }) {
                   : `url('/eventPageDesktop.jpg')` // replace with your image path
               }}
             >
-              <div className=' bg-black/50 p-5 font-serif'>
+              <div className=' bg-black/50 p-5 ' style={{ fontFamily: 'Algerian, sans-serif' }}>
 
                 <h1 className='text-white font-bold pt-20 text-5xl text-center'>{eventName.eventName}</h1>
                 <div className='w-full flex justify-center items-center py-8'>
