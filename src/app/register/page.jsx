@@ -76,12 +76,12 @@ export default function Register() {
         else if (name === "eventSpectrum") {
             setFormData({ ...formData, [name]: value, teamSize: undefined, transition_amount:undefined});
             setFeesPrice('Choose Member Number First')
-            setTeamSize(teamMembersAllowed[15][value])
+            setTeamSize(teamMembersAllowed[14][value])
         }
         else if (name === "eventVartalap") {
             setFormData({ ...formData, [name]: value, teamSize: undefined, transition_amount:undefined})
             setFeesPrice('Choose Member Number First')
-            setTeamSize(teamMembersAllowed[21][value])
+            setTeamSize(teamMembersAllowed[20][value])
         }
         else if (name === "teamSize") {
             if (value === "Solo") {

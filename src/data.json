@@ -482,18 +482,9 @@
         "clubName": "Uttaranchal E-Sports Cell",
         "eventType": "Technical",
         "description": [
-            "ITINERARY of SQUAD match played by 25 teams in each group, it will be point based round-robin format match:-> 1st Match, 2nd Match, 3rd Match",
+            "ITINERARY of SQUAD match played by 20 teams in each group, it will be point based round-robin format match:->Sessions-1(Qualifiers) :-> 1st Match, 2nd Match, 3rd Match",
             "Sessions-2(FINALS) :-> Top 6 teams from each group will qualify for the finals. (NOTE:-The top teams may vary according to the registered teams) 1st match 2nd match",
-            "Point Table",
-            "Position 1:- 10points",
-            "Position 2:- 6 points",
-            "Position 3:- 5 points",
-            "Position 4:- 4 points",
-            "Position 5:- 3 points",
-            "Position 6:- 2 points",
-            "Position 7-8:- 1 point",
-            "Position 9-16:-0 points",
-            "Note:- These points may vary according to the teams in group."
+            "The official point table of free fire will be followed"
         ],
         "eventCoordinators": [
             [
@@ -509,15 +500,17 @@
             ]
         ],
         "eventGuids": [
+            "Every member has to bring their college id cards or hard copy of their college ERP's, Otherwise they are not allowed to participate in the event.",
             "The team should consist of 4 players (Registered players) only, no extra or substitutes will be allowed.",
             "Only device (Android /iOS), headphones, charger, power bank & pillow will be allowed in tournament premises.",
             "Teams will be disqualified if caught cheating, exploiting bugs, ringing or displaying toxic behavior towards other players.",
-            "The teams should be present 1 hour before the commencement of the tournament for head count and placement",
+            "The teams should be present 1 hour before the commencement of the tournament for head count and placement.",
             "The top 3 teams and MVP in the tournament will be awarded with medals and trophies.",
-            "Each group will consist of 16-24 teams & 6-10 teams will qualify from each group (the top teams may vary according to the teams registered in the evening)",
-            "The minimum requirement for the id for the registration should be level 35 and your rank should be more than platinum V.",
+            "Each group will consist of 16-24 teams & 6-10 teams will qualify from each group (the top teams may vary according to the teams registered in the evening).",
+            "No player will use skins of guns and power-ups.",
             "Your phone will be thoroughly checked for hacks and mod files while entering the tournament premises.",
-            "IGL from every team will be representative of their own team and will be responsible for point tally, discrepancy or if they suspect other players for hacking."
+            "IGL from every team will be representative of their own team and will be responsible for point tally, discrepancy or if they suspect other players for hacking.",
+            "Everyone has to report in the premises till 9:15 AM, after that no participant will be allowed in the premises."
         ],
         "actualDateandTime": [
             "15th September 2025",
@@ -530,6 +523,9 @@
             "Quartet"
         ],
         "registrationFeesAll": [
+            [],
+            [],
+            [],
             [
                 {
                     "Free Fire": 200
@@ -537,6 +533,9 @@
             ]
         ],
         "registrationFessUIT": [
+            [],
+            [],
+            [],
             [
                 {
                     "Free Fire": 200
