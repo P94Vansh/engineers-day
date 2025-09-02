@@ -147,7 +147,6 @@ export default function Home() {
         <TypewriterEffectSmooth words={typeWriterPatrons} />
         <div className="flex md:flex-row flex-col justify-center items-center ">
           <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Shri Jitender Joshi" pos="President,UU" />
-          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Mrs. Anuradha Joshi" pos="Chair Person, Sushila Devi Center for Professional Studies & Research" />
 
           <ImageBox src="/vc.jpg" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,UU" />
         </div>

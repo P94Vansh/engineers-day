@@ -218,17 +218,17 @@
             [],
             [
                 {
-                    "Jagga Jasoos": 200
+                    "Jagga Jasoos": 100
                 }
             ],
             [
                 {
-                    "Jagga Jasoos": 200
+                    "Jagga Jasoos": 100
                 }
             ],
             [
                 {
-                    "Jagga Jasoos": 200
+                    "Jagga Jasoos": 100
                 }
             ]
         ],
@@ -237,17 +237,17 @@
             [],
             [
                 {
-                    "Vocal": 100
+                    "Jagga Jasoos": 70
                 }
             ],
             [
                 {
-                    "Vocal": 100
+                    "Jagga Jasoos": 70
                 }
             ],
             [
                 {
-                    "Vocal": 100
+                    "Jagga Jasoos": 70
                 }
             ]
         ],
@@ -337,7 +337,7 @@
             "UIT’s Castle is not your usual competition—it’s a rollercoaster of wit, trust, and surprises that will keep you guessing till the very end. Inspired by the madness of Takeshi’s Castle, our version comes with its own thrilling twists.",
             " A round where the wrong answer might just be the right path forward. Can you trust your instincts when logic seems upside down?",
             "A spell bee where your vision is gone, and trust becomes your only guide. Spelling isn’t the only    challenge—confidence is.",
-            "A classic childhood favorite, but not as you know it—Red Light, Green Light gets twisted when balance and focus are tested in ways you never expected."
+            "A classic childhood favorite, but not as you know it"
         ],
         "eventCoordinators": [
             [
@@ -373,14 +373,8 @@
                 ]
             },
             {
-                "Round 3:Red Light, Green Light (with a Twist)": [
-                    "At “Green Light” you move, at “Red Light” you must stop *and balance on one leg* until the next signal.",
-                    "If you lose balance, move at the wrong signal, or get caught moving—you have to start from starting line again.",
-                    "The first participants to cross the finish line within rules qualify.",
-                    "No pushing, pulling, or physically disturbing other participants.",
-                    "Blindfolded players must be guided carefully—safety first.",
-                    "Rough behavior = instant disqualification.",
-                    "Respect coordinators and fellow participants at all times."
+                "Round 3:": [
+                    "Join Us For the Surprise"
                 ]
             }
         ],
@@ -391,27 +385,9 @@
         "actualVenue": "Ground Floor UIT",
         "eligibility": "Open to all students",
         "teamSize": [
-            "Solo",
-            "Duet",
-            "Trio",
-            "Quartet"
+            "Solo"
         ],
         "registrationFeesAll": [
-            [
-                {
-                    "UITCASTLE": 150
-                }
-            ],
-            [
-                {
-                    "UITCASTLE": 150
-                }
-            ],
-            [
-                {
-                    "UITCASTLE": 150
-                }
-            ],
             [
                 {
                     "UITCASTLE": 150
@@ -423,25 +399,10 @@
                 {
                     "UITCASTLE": 80
                 }
-            ],
-            [
-                {
-                    "UITCASTLE": 150
-                }
-            ],
-            [
-                {
-                    "UITCASTLE": 80
-                }
-            ],
-            [
-                {
-                    "UITCASTLE": 80
-                }
             ]
         ],
         "judgingCriteria": [
-            "he event follows an elimination format. Participants must clear each round by following the rules and completing the challenge successfully. Only those who survive till the final round will be eligible for the title of winner.",
+            "The event follows an elimination format. Participants must clear each round by following the rules and completing the challenge successfully. Only those who survive till the final round will be eligible for the title of winner.",
             "If multiple participants make it to the end, a special tie-breaker mystery challenge will be conducted to decide the ultimate winner.",
             "Fair play, enthusiasm, and respect for rules are expected at every stage—misconduct may lead to disqualification."
         ]
@@ -472,7 +433,7 @@
             "Photos must be original and clicked by the participant (no plagiarism).",
             "Basic editing (brightness, contrast, cropping, color correction) is allowed, but no heavy manipulation or AI-generated images.",
             "Each participant can submit a maximum of 2 entries.",
-            "The Theme could be anything",
+            "The Theme will be your University",
             "Submissions must be in JPEG/PNG format with a minimum resolution of 1080p.",
             "File name format: ParticipantName_EntryNumber.",
             "Late submissions will not be entertained"
@@ -1159,7 +1120,7 @@
                 ]
             ],
             "eventGuids": [
-                "Participation is in teams of 4,3,2 or 1.",
+                "Participation is in teams of 4.",
                 "The tournament bracket will be knockout style.",
                 "Topics are given 5 minutes before the debate round.",
                 "Each team gets 3 minutes (opening arguments) + 2 minutes (rebuttal).",
@@ -1266,7 +1227,8 @@
         "eventGuids": [
             "Participants must bring their own colors and brushes (only skin-friendly & washable paints allowed).",
             "No harmful chemicals or permanent markers are allowed.",
-            "Time limit: 30 min/Team.",
+            "Time limit: 3 hrs/Team.",
+            "Painting Time is 1 hr.",
             "Themes will be provided on the spot.",
             "Solo participation or team of 2 (one painter + one model).",
             "Judging based on creativity, theme relevance, neatness, and overall impact."
@@ -1684,13 +1646,13 @@
             [],
             [
                 {
-                    "scilife": 200
+                    "scilife": 150
                 }
             ],
             [],
             [
                 {
-                    "scilife": 200
+                    "scilife": 150
                 }
             ]
         ],
@@ -1698,13 +1660,13 @@
             [],
             [
                 {
-                    "scilife": 150
+                    "scilife": 100
                 }
             ],
             [],
             [
                 {
-                    "scilife": 150
+                    "scilife": 100
                 }
             ]
         ],

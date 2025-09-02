@@ -302,7 +302,6 @@ function EventDesc({ event }) {
                       </li>
                     </ul>
                   ))}
-                  <ul className='text-white list-disc px-3'><li>{eventName.eligibility}</li></ul>
                 </div>
                 {
                   eventName.subEvent1.auditionDateandTime && (
@@ -471,7 +470,7 @@ function EventDesc({ event }) {
 
                   <>
                     <div> Fees for a Team is/are: </div>
-                    <ul className='list-disc px-8'> <li>400</li> </ul>
+                    <ul className='list-disc px-8'> <li>350</li> </ul>
                   </>
                 </div>
                 <h2 className='text-white font-bold text-4xl my-3'>Fees for Other Students</h2>

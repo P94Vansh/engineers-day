@@ -74,11 +74,13 @@ export default function Register() {
             setTeamMemberNumber(0)
         }
         else if (name === "eventSpectrum") {
-            setFormData({ ...formData, [name]: value, teamSize: undefined });
+            setFormData({ ...formData, [name]: value, teamSize: undefined, transition_amount:undefined});
+            setFeesPrice('Choose Member Number First')
             setTeamSize(teamMembersAllowed[15][value])
         }
         else if (name === "eventVartalap") {
-            setFormData({ ...formData, [name]: value, teamSize: undefined })
+            setFormData({ ...formData, [name]: value, teamSize: undefined, transition_amount:undefined})
+            setFeesPrice('Choose Member Number First')
             setTeamSize(teamMembersAllowed[21][value])
         }
         else if (name === "teamSize") {
@@ -504,14 +506,14 @@ const events = [
     "Cook Without Fire",
     "Dronovation",
     "Enginova",
-    "Extempore Debate",
     "Hydrophilia",
     "IGNITION WAR",
     "Jagga Jasoos",
     "Kabaddi Championship",
+    // done
     "Kalakriti",
     "Mech War",
-    "Metal Fogging",
+    "Metal Forging",
     "Nal Neel",
     "Sci Life",
     "Spectrum",
@@ -522,60 +524,94 @@ const events = [
     "Vocal Vogue",
     "War-tā-lab",
 ]
+const feesUit = [
+    [500, 500],
+    [50, 50],
+    [50, 50],
+    [150, 150,150],
+    [150, 150,150,150],
+    [300, 300, 300],
+    [150, 150,150],
+    [70,70,70],
+    [1500],
+    // done
+    [50],
+    [300,300],
+    [150],
+    [300, 300, 300],
+    [100, 100,100,100,100],
+    {
+        Dance: [100, 200],
+        Singing: [100, 200],
+        Modelling: [70],
+        CosPlay: [70]
+    },
+    [50],
+    [70],
+    [50],
+    [150],
+    [100],
+    {
+        "Group Discussion": [50],
+        Debate: [100]
+    },
+];
 const teamMembersAllowed = [
     ["Trio", "Quartet"],
     ["Solo", "Duet"],
-    ["Duet", "Quartet"],
-    ["Duet", "Quartet"],
-    ["Duet", "Quartet"],
-    ["Solo", "Duet", "Trio", "Quartet"],
-    ["Duet", "Quartet"],
-    ["Solo"],
+    ["Duet"],
+    ["Duet","Trio", "Quartet"],
+    ["Solo", "Duet","Trio", "Quartet"],
+    ["Duet","Trio", "Quartet"],
+    ["Trio", "Quartet", "Quintet"],
     ["Trio", "Quartet", "Quintet"],
     ["Septet"],
     ["Solo"],
-    ["Duet", "Quartet"],
-    ["Solo", "Duet"],
-    ["Duet", "Quartet"],
-    ["Duet", "Quintet"],
-    { "Dance": ["Solo", "Duet"], "Singing": ["Solo", "Duet"], "Modelling": ["Solo", "Duet"], "CosPlay": ["Solo"] },
-    ["Solo", "Duet", "Quartet"],
-    ["Solo", "Duet", "Quartet"],
-    ["Solo", "Duet"],
-    ["Trio", "Quartet"],
+    ["Duet", "Trio"],
+    ["Duet"],
+    ["Duet", "Trio","Quartet"],
+    ["Solo","Duet","Trio","Quartet", "Quintet"],
+    { "Dance": ["Solo", "Duet"], "Singing": ["Solo", "Duet"], "Modelling": ["Solo"], "CosPlay": ["Solo"] },
     ["Solo"],
-    { "Group Discussion": ["Solo"], "Debate": ["Solo", "Duet", "Trio", "Quartet"] },
+    ["Solo"],
+    ["Solo"],
+    ["Quartet"],
+    // done
+    ["Solo"],
+    { "Group Discussion": ["Solo"], "Debate": ["Quartet"] },
 ]
+
+
 const feesAll = [
-    [100, 150],
-    [50, 80],
-    [80, 150],
-    [80, 150],
-    [80, 150],
-    [50, 80, 100, 150],
-    [80, 150],
-    [50],
-    [100, 150, 200],
-    [300],
-    [50],
-    [80, 150],
-    [50, 80],
-    [80, 150],
-    [80, 200],
+    [500, 500],
+    [70, 70],
+    [70, 70],
+    [200, 200,200],
+    [200, 200,200,200],
+    [400, 400, 400],
+    [200, 200,200],
+    [100,100,100],
+    [1500],
+    [70],
+    [350,350],
+    [200],
+    [400, 400, 400],
+    [150, 150,150,150,150],
     {
-        Dance: [50, 80],
-        Singing: [50, 80],
-        Modelling: [50, 80],
-        CosPlay: [50]
+        Dance: [150, 250],
+        Singing: [150, 250],
+        Modelling: [100],
+        CosPlay: [100]
     },
-    [50, 80, 150],
-    [50, 80, 150],
-    [50, 80],
-    [100, 150],
-    [50],
+    [70],
+    [100],
+    [70],
+    [200],
+    // done
+    [150],
     {
-        "Group Discussion": [50],
-        Debate: [50, 80, 100, 150]
+        "Group Discussion": [80],
+        Debate: [150]
     },
 ];
 
@@ -589,35 +625,4 @@ const eventVartalap = [
     "Group Discussion",
     "Debate"
 ]
-const feesUit = [
-    [80, 130],
-    [40, 70],
-    [70, 130],
-    [70, 130],
-    [70, 130],
-    [40, 70, 80, 130],
-    [70, 130],
-    [40],
-    [80, 130, 180],
-    [280],
-    [40],
-    [70, 130],
-    [40, 70],
-    [70, 130],
-    [70, 180],
-    {
-        Dance: [40, 70],
-        Singing: [40, 70],
-        Modelling: [40, 70],
-        CosPlay: [40]
-    },
-    [40, 70, 130],
-    [40, 70, 130],
-    [40, 70],
-    [80, 130],
-    [40],
-    {
-        "Group Discussion": [40],
-        Debate: [40, 70, 80, 130]
-    },
-];
+
