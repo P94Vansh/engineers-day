@@ -160,7 +160,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <ImageBox src="/deansir.jpg" title="Convener" name="Prof. (Dr.) Sumit Chaudhary" pos="Director,UIT" />
         <ImageBox src="/hodmam.jpg" title="Co-Convener" name="Dr. Madhu Kirola" pos="HOD (CSE), UIT" />
-        <ImageBox src="/jaspreetSir.jpg" title="Co-Convener" name="Prof.(Dr.) Jaspreet Hira" pos="HOD (ME), UIT" />
+        <ImageBox src="/gt.jpg" title="Co-Convener" name="Dr. Gaurav Thakur" pos="HOD (CE), UIT" />
       </div>
       <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
         <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />

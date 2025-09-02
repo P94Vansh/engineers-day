@@ -16,8 +16,8 @@ const Footer = ({id}) => {
           <div className="text-[#888]">(HOD,CSE)</div>
         </div>
         <div className="md:flex-row flex flex-col md:gap-3 justify-center items-center">
-          <div className="text-white text-center text-lg ">Prof.(Dr.) Jaspreet Hira</div>
-          <div className="text-[#888]">(HOD,ME)</div>
+          <div className="text-white text-center text-lg ">Dr. Gaurav Thakur</div>
+          <div className="text-[#888]">(HOD,CE)</div>
         </div>
         <div className="text-center mt-5 text-xl text-blue-500 ">
           Student Coordinator
