@@ -21,7 +21,7 @@ export default function Register() {
         console.log({ formData });
         for(const key in formData){
             if(formData[key]==undefined){
-                delete formData.key
+                delete formData[key]
             }
         }
         try {
