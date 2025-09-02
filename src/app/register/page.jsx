@@ -19,11 +19,6 @@ export default function Register() {
         setInfoText("Uploading Form ...");
         setSubmitDisabled(true);
         console.log({ formData });
-        for(const key in formData){
-            if(formData[key]==undefined){
-                delete formData[key]
-            }
-        }
         try {
             const response = await fetch("/api/send-data", {
                 method: "POST",
