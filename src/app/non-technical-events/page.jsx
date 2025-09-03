@@ -17,7 +17,7 @@ function Page() {
       >
         {/* Spacer for Navbar */}
 
-        <div className="h-16"></div>
+        <div className="h-24"></div>
 
         {/* Title */}
         <div className=" w-full flex justify-center items-center">
