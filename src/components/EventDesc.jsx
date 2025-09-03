@@ -28,7 +28,7 @@ function EventDesc({ event }) {
         >
           <div className=' bg-black/50 p-5' style={{ fontFamily: 'Algerian, sans-serif' }}>
 
-            <h1 className='text-white font-bold text-5xl text-center pt-20'>{eventName.eventName}
+            <h1 className='text-white font-bold text-5xl text-center pt-28'>{eventName.eventName}
               {
                 eventName.eventName !== "Cook Without Fire" && (
                   <>
@@ -274,7 +274,7 @@ function EventDesc({ event }) {
             >
               <div className=' bg-black/50 p-5 ' style={{ fontFamily: 'Algerian, sans-serif' }}>
 
-                <h1 className='text-white font-bold pt-20 text-5xl text-center'>{eventName.eventName}</h1>
+                <h1 className='text-white font-bold pt-28 text-5xl text-center'>{eventName.eventName}</h1>
                 <div className='w-full flex justify-center items-center py-8'>
                   <Button
                     onClick={() => router.push('/register')}
