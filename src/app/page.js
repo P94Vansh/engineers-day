@@ -146,21 +146,21 @@ export default function Home() {
       <div className="flex flex-col w-full justify-center items-center">
         <TypewriterEffectSmooth words={typeWriterPatrons} />
         <div className="flex md:flex-row flex-col justify-center items-center ">
-          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Shri Jitender Joshi" pos="President,UU" />
+          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Shri Jitender Joshi" pos="President,Uttaranchal University" />
 
-          <ImageBox src="/vc.jpg" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,UU" />
+          <ImageBox src="/vc.jpg" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,Uttaranchal University" />
         </div>
         <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
 
-          <ImageBox title="Patron" src="/faculity-3.jpg" name="Prof(Dr.) Dharam Buddhi" pos="Vice Chancellor,UU" />
-          <ImageBox title="Patron" src="/homebg.jpg" name="Prof(Dr.) Rajesh Bahuguna" pos="Pro Vice Chancellor,UU" />
-          <ImageBox title="Patron" src="/directorr.jpg" name="Dr. Abhishek Joshi" pos="Executive Director,UU" />
+          <ImageBox title="Patron" src="/faculity-3.jpg" name="Prof(Dr.) Dharam Buddhi" pos="Vice Chancellor, Uttaranchal University" />
+          <ImageBox title="Patron" src="/homebg.jpg" name="Prof(Dr.) Rajesh Bahuguna" pos="Pro Vice Chancellor, Uttaranchal University" />
+          <ImageBox title="Patron" src="/directorr.jpg" name="Dr. Abhishek Joshi" pos="Executive Director, Uttaranchal University" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center">
-        <ImageBox src="/deansir.jpg" title="Convener" name="Prof. (Dr.) Sumit Chaudhary" pos="Director,UIT" />
-        <ImageBox src="/hodmam.jpg" title="Co-Convener" name="Dr. Madhu Kirola" pos="HOD (CSE), UIT" />
-        <ImageBox src="/gt.jpg" title="Co-Convener" name="Mr. Gaurav Thakur" pos="HOD (CE), UIT" />
+        <ImageBox src="/deansir.jpg" title="Convener" name="Prof. (Dr.) Sumit Chaudhary" pos="Director,Uttaranchal Institute of Technology" />
+        <ImageBox src="/hodmam.jpg" title="Co-Convener" name="Dr. Madhu Kirola" pos="HOD (CSE), Uttaranchal Institue of Technology" />
+        <ImageBox src="/gt.jpg" title="Co-Convener" name="Mr. Gaurav Thakur" pos="HOD (CE), Uttaranchal Institue of Technology" />
       </div>
       <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
         <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />
@@ -192,7 +192,7 @@ export default function Home() {
       <hr className="bg-white h-0.5" />
       <div className="md:h-[50rem] h-[60rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <Image src={'/CoreCommitteeLogo.png'} alt="Core Committe Logo" width={130} height={130} />
-        <TypewriterEffectSmooth words={[{ text: 'What' }, { text: 'Is' }, { text: 'Core' }, { text: 'Committee?' }]} />
+        <TypewriterEffectSmooth words={[{ text: 'What' }, { text: 'is' }, { text: 'Core' }, { text: 'Committee?' }]} />
         <div className=" w-full flex md:flex-row flex-col justify-center items-center p-7 gap-3">
           <div className="text-white text-md md:text-2xl">The Core Committee is the flagship club of UIT, bringing
             together representatives from all student clubs under

@@ -16,10 +16,11 @@ function Page() {
         "
       >
         {/* Spacer for Navbar */}
+
         <div className="h-16"></div>
 
         {/* Title */}
-        <div className="bg-black/50 w-full flex justify-center items-center">
+        <div className=" w-full flex justify-center items-center">
           <TypewriterEffectSmooth
             words={[{ text: "Non" }, { text: "Technical" }, { text: "Events" }]}
           />

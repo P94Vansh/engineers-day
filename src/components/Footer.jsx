@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const Footer = ({id}) => {
+const Footer = ({ id }) => {
   return (
     <div>
       <div id={id} className="bg-black">
@@ -24,40 +24,33 @@ const Footer = ({id}) => {
         </div>
         <div className=" mt-2 flex flex-col  justify-center items-center">
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
-          Ishu Mishra <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+919193373770"}>- 9193373770 - </div>
+            Ishu Mishra <div className="px-3 cursor-pointer" onClick={() => window.location.href = "tel:+919193373770"}>- 9193373770 - </div>
           </div>
           <div className="text-[#888]">(General Secretary, Core Commmitte UIT)</div>
         </div>
-        
+
 
         <div className="text-center text-xl mt-8 text-blue-500 ">
           For any Technical or Email Issues Contact
         </div>
         <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
           <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
-          Vansh Gambhir <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+918979402739"}>- 8979402739 - </div>
+            Vansh Gambhir <div className="px-3 cursor-pointer" onClick={() => window.location.href = "tel:+918979402739"}>- 8979402739 - </div>
           </div>
         </div>
-        <div className="text-center text-xl mt-8 text-blue-500 ">
-          For Technical Events
-        </div>
-        <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
-          <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
-          Ankur Verma 
- <div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+917667222066"}>- 7667222066 - </div>
-          </div>
-        </div>
-        <div className="text-center text-xl mt-8 text-blue-500 ">
-          For Non tech event queries
-        </div>
-        <div className="md:flex-row mt-2 flex flex-col md:gap-3 justify-center items-center">
-          <div className="text-white text-center text-lg  flex flex-col lg:flex-row ">
-          Simran
-<div className="px-3 cursor-pointer" onClick={()=>window.location.href="tel:+919520354625"}>- 9520354625 - </div>
-          </div>
-        </div>
+        <div className="flex gap-10 flex-wrap justify-center items-center">
+          <div>
+            <div className="text-center text-xl mt-8 text-blue-500 ">For Technical Events Queries</div>
+            <div className="text-white text-center">Ankur Verma</div>
+            <div className="px-3 cursor-pointer text-white text-center" onClick={() => window.location.href = "tel:+917667222066"}>- 766722206 - </div>
 
-
+          </div>
+          <div>
+          <div className="text-center text-xl mt-8 text-blue-500 ">For Non Technical Events Queries</div>
+          <div className="text-white text-center">Simran</div>
+            <div className="px-3 cursor-pointer text-white text-center" onClick={() => window.location.href = "tel:+919520354625"}>- 9520354625 - </div>
+            </div>
+        </div>
 
         <div className="text-white text-center mt-8 text-sm pb-2">
           &copy; 2025 Engineers&apos; Day. All rights reserved.
