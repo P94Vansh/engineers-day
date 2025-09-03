@@ -38,7 +38,7 @@ const Footer = ({ id }) => {
             Vansh Gambhir <div className="px-3 cursor-pointer" onClick={() => window.location.href = "tel:+918979402739"}>- 8979402739 - </div>
           </div>
         </div>
-        <div className="flex gap-10 flex-wrap justify-center items-center">
+        <div className="flex md:gap-10 gap-6 flex-wrap justify-center items-center">
           <div>
             <div className="text-center text-xl mt-8 text-blue-500 ">For Technical Events Queries</div>
             <div className="text-white text-center">Ankur Verma</div>
