@@ -117,7 +117,7 @@ export default function Home() {
       </div>
     </div>
       <hr className="bg-white h-0.5" />
-      <div className="w-full rounded-md flex flex-col md:justify-center  antialiased bg-grid-white/[0.02] relative overflow-hidden items-center">
+      <div className="w-full rounded-md flex flex-col md:justify-center  antialiased bg-grid-white/[0.02] relative overflow-hidden items-center py-10 ">
         <TypewriterEffectSmooth words={[{ text: 'Why' }, { text: "Engineers'" }, { text: "Day?" }]} />
         <div className="w-full flex md:flex-row flex-col-reverse items-center justify-center px-4 pt-10">
           <div className="md:w-[50%] w-[100%] px-3 text-white font-sans md:text-xl text-md">
@@ -146,9 +146,9 @@ export default function Home() {
       <div className="flex flex-col w-full justify-center items-center">
         <TypewriterEffectSmooth words={typeWriterPatrons} />
         <div className="flex md:flex-row flex-col justify-center items-center ">
-          <ImageBox src="/chancellorsir.jpg" title="Chief Patron" name="Shri Jitender Joshi" pos="President,Uttaranchal University" />
+          <ImageBox src="/chancellorsir.png" title="Chief Patron" name="Shri Jitender Joshi" pos="President,Uttaranchal University" />
 
-          <ImageBox src="/vc.jpg" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,Uttaranchal University" />
+          <ImageBox src="/vc.png" title="Co-Chief Patron" name="Ms. Ankita Joshi" pos="Vice President,Uttaranchal University" />
         </div>
         <div className="flex md:flex-row flex-wrap flex-col justify-center items-center">
 
@@ -166,10 +166,10 @@ export default function Home() {
         <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />
       </div>
       <hr className="bg-white h-0.5" />
-      <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="h-[40rem] w-full container mx-auto bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <Image src={'/UuLogo.jpg'} className="bg-white p-5 rounded-2xl" alt="University Logo" width={300} height={300} />
         <TypewriterEffectSmooth words={[{ text: 'About' }, { text: 'Uttaranchal' }, { text: 'Institute' }, { text: 'Of' }, { text: 'Technology' }]} />
-        <div className="text-white font-serif md:text-2xl text-md p-3">Uttaranchal Institute of Technology (UIT), established in 2006 in Dehradun, is a premier engineering college under Uttaranchal University. UIT offers industry-aligned B.Tech and M.Tech programs, fostering innovation, research, and leadership. With modern infrastructure, expert faculty, and strong placement records, UIT empowers students to become globally competitive professionals. Its vibrant campus culture and academic excellence make it a top choice for aspiring engineers in Uttarakhand.</div>
+        <div className="text-white text-justify font-serif md:text-2xl text-md p-3">Uttaranchal Institute of Technology (UIT), established in 2006 in Dehradun, is a premier engineering college under Uttaranchal University. UIT offers industry-aligned B.Tech and M.Tech programs, fostering innovation, research, and leadership. With modern infrastructure, expert faculty, and strong placement records, UIT empowers students to become globally competitive professionals. Its vibrant campus culture and academic excellence make it a top choice for aspiring engineers in Uttarakhand.</div>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
@@ -190,11 +190,11 @@ export default function Home() {
           </div>
       </div>
       <hr className="bg-white h-0.5" />
-      <div className="md:h-[50rem] h-[60rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="md:h-[50rem] h-[60rem] container mx-auto w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <Image src={'/CoreCommitteeLogo.png'} alt="Core Committe Logo" width={130} height={130} />
         <TypewriterEffectSmooth words={[{ text: 'What' }, { text: 'is' }, { text: 'Core' }, { text: 'Committee?' }]} />
-        <div className=" w-full flex md:flex-row flex-col justify-center items-center p-7 gap-3">
-          <div className="text-white text-md md:text-2xl">The Core Committee is the flagship club of UIT, bringing
+        <div className=" w-full flex md:flex-row flex-col justify-center items-center p-7 gap-5 md:gap-9">
+          <div className="text-white text-md md:text-2xl text-justify">The Core Committee is the flagship club of UIT, bringing
             together representatives from all student clubs under
             one roof. It serves as the central body that plans,
             coordinates, and executes the flagship fests and major
