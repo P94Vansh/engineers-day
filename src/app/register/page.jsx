@@ -202,7 +202,7 @@ export default function Register() {
 
     return (
         <>
-            <div className="h-8"></div>
+            <div className="h-16"></div>
             <div className="w-full grid-bg text-white py-10">
                 <form
                     onSubmit={onSubmit}
