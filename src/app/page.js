@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center h-full px-4 text-center">
-        <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-200 dark:to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 font-bold tracking-tight">
+        <h2 className="bg-clip-text text-transparent bg-gradient-to-b  from-neutral-200 to-white text-3xl md:text-5xl lg:text-5xl font-sans py-2 md:py-10 font-bold tracking-tight">
           Engineers&apos; Day Mahotsava <br /> 2.0
         </h2>
 

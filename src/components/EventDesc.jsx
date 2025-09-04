@@ -26,7 +26,7 @@ function EventDesc({ event }) {
               : `url('/eventPageDesktop.jpg')` // replace with your image path
           }}
         >
-          <div className=' bg-black/50 p-5' style={{ fontFamily: 'Algerian, sans-serif' }}>
+          <div className=' bg-black/50 p-5 font-[var(--font-poppins)]'>
 
             <h1 className='text-white font-bold text-5xl text-center pt-28'>{eventName.eventName}
               {
@@ -68,7 +68,6 @@ function EventDesc({ event }) {
             {
               eventName.eventCoordinators.length===1?(
                 <div className='text-white'>
-                 <div> Student Coordinator :-</div>
                   <ul className='list-disc px-8 text-white'>
                   <li>Name: {eventName.eventCoordinators[0][0]}</li>
                   <li>Phone Number: {eventName.eventCoordinators[0][1]}</li>
@@ -272,7 +271,7 @@ function EventDesc({ event }) {
                   : `url('/eventPageDesktop.jpg')` // replace with your image path
               }}
             >
-              <div className=' bg-black/50 p-5 ' style={{ fontFamily: 'Algerian, sans-serif' }}>
+              <div className=' bg-black/50 p-5 font-[var(--font-poppins)] '>
 
                 <h1 className='text-white font-bold pt-28 text-5xl text-center'>{eventName.eventName}</h1>
                 <div className='w-full flex justify-center items-center py-8'>
