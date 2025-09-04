@@ -105,10 +105,11 @@ export default function Register() {
                 const eventIdx = events.findIndex((value) => value === formData["event"])
                 if (formData["event"] !== "Spectrum" && formData["event"] !== "War-tā-lab") {
                     const teamSizeIdx = teamMembersAllowed[eventIdx].findIndex((val) => val === value)
+                    console.log(formData["college"])
                     if (formData["college"] === "UIT") {
                         fees = feesUit[eventIdx][teamSizeIdx]
                     } else {
-                        fees = feesUit[eventIdx][teamSizeIdx]
+                        fees = feesAll[eventIdx][teamSizeIdx]
                     }
                 }
                 else {
