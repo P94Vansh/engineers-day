@@ -45,7 +45,7 @@ const Footer = ({ id }) => {
         {/* Technical Support */}
         <div>
           <h3 className="text-xl font-semibold text-blue-500 mb-4 text-center  ">
-            Technical / Email Support
+            Registration / Email Support
           </h3>
           <div className="text-center  ">
             <p className="text-lg">Vansh Gambhir</p>
