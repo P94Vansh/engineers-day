@@ -485,14 +485,14 @@ function EventDesc({ event }) {
 
                   <>
                     <div> Fees for a Team is/are: </div>
-                    <ul className='list-disc px-8'> <li>350</li> </ul>
+                    <ul className='list-disc px-8'> <li>100</li> </ul>
                   </>
                 </div>
                 <h2 className='text-white font-bold text-4xl my-3'>Fees for Other Students</h2>
                 <div className='text-white'>
                   <>
                     <div> Fees for a Team is/are: </div>
-                    <ul className='list-disc px-8'> <li>400</li> </ul>
+                    <ul className='list-disc px-8'> <li>150</li> </ul>
                   </>
                 </div>
                 {eventName.subEvent2.judgingCriteria && (

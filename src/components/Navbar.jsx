@@ -15,7 +15,6 @@
   import { useState } from "react";
 
   function NavbarComp({id}) {
-    console.log(id)
     const navItems=[
       {
         name:"Technical Events",
