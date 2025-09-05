@@ -195,7 +195,7 @@ export const NavbarLogo = () => {
       href="/"
       className="relative z-20 mr-8  py-1 text-sm font-normal text-black">
       <img
-        src="edLogoNav.png"
+        src="/edLogoNav.png"
         alt="logo"
         width={250}
         height={250} />
