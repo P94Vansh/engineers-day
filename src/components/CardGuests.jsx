@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ImageBox({ src, title,name,pos }) {
   return (
-    <div className="bg-gray-50 border border-gray-300 rounded-lg shadow-md m-5 p-5 w-[340px] flex h-[450px] flex-col items-center content-center">
+    <div className="bg-gray-50 border border-gray-300 rounded-lg shadow-md m-5 p-5 md:w-[340px] flex md:h-[450px] h-[350px] w-[250px] flex-col items-center content-center">
       {/* Title */}
       <h2 className="text-xl text-center font-bold text-gray-800 mb-4">{title || ""}</h2>
 

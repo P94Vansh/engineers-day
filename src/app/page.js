@@ -188,7 +188,7 @@ export default function Home() {
         <ImageBox title={'Student Coordinator'} src="/studco.jpg" name="Ishu Mishra" pos="General Secretary, Core Committee" />
       </div>
       <hr className="bg-white h-0.5" />
-      <div className="h-[40rem] w-full container mx-auto bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="md:h-[40rem] h-[48rem] w-full container mx-auto bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <Image src={'/UuLogo.jpg'} className="bg-white p-5 rounded-2xl" alt="University Logo" width={300} height={300} />
         <TypewriterEffectSmooth words={[{ text: 'About' }, { text: 'Uttaranchal' }, { text: 'Institute' }, { text: 'Of' }, { text: 'Technology' }]} />
         <div className="text-white text-justify font-serif md:text-2xl text-md p-3">Uttaranchal Institute of Technology (UIT), established in 2006 in Dehradun, is a premier engineering college under Uttaranchal University. UIT offers industry-aligned B.Tech and M.Tech programs, fostering innovation, research, and leadership. With modern infrastructure, expert faculty, and strong placement records, UIT empowers students to become globally competitive professionals. Its vibrant campus culture and academic excellence make it a top choice for aspiring engineers in Uttarakhand.</div>
