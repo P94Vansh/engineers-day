@@ -114,7 +114,7 @@ export default function Dashboard() {
   return (
     <>
       <div className="min-h-screen dark:bg-gray-950">
-        <h1 className="text-4xl text-center font-medium py-5 dark:text-white">
+        <h1 className="text-4xl text-center font-medium py-5 dark:text-white pt-32">
           Registration Records
         </h1>
 
