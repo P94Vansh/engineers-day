@@ -39,6 +39,8 @@ function EventDesc({ event }) {
               }
             </h1>
             <div className='w-full flex justify-center items-center py-8'>
+              {
+                eventName.eventName!=="Spectrum" ? (
               <Button
                 onClick={() => router.push('/register')}
                 borderRadius="1.75rem"
@@ -46,6 +48,26 @@ function EventDesc({ event }) {
               >
                 Register
               </Button>
+
+                ):
+                (
+                 <div className="max-w-lg mx-auto p-6 bg-black/40 rounded-2xl text-white text-center shadow-lg">
+  <h2 className="text-2xl md:text-3xl font-bold mb-3">
+    Registrations are Closed
+  </h2>
+  <p className="text-lg mb-1">
+    For further contact →
+  </p>
+  <p className="text-xl font-semibold">
+    Ishu Mishra
+  </p>
+  <p className="text-sm md:text-base opacity-80">
+    (General Secretary)
+  </p>
+</div>
+
+                )
+              }
             </div>
             <h2 className='text-white font-bold text-4xl my-3'>Event Description</h2>
 <div>
