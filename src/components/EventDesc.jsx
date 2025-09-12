@@ -39,18 +39,7 @@ function EventDesc({ event }) {
               }
             </h1>
             <div className='w-full flex justify-center items-center py-8'>
-              {
-                eventName.eventName!=="Spectrum" ? (
-              <Button
-                onClick={() => router.push('/register')}
-                borderRadius="1.75rem"
-                className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-              >
-                Register
-              </Button>
-
-                ):
-                (
+              
                  <div className="max-w-lg mx-auto p-6 bg-black/40 rounded-2xl text-white text-center shadow-lg">
   <h2 className="text-2xl md:text-3xl font-bold mb-3">
     Registrations are Closed
@@ -65,9 +54,6 @@ function EventDesc({ event }) {
     (General Secretary)
   </p>
 </div>
-
-                )
-              }
             </div>
             <h2 className='text-white font-bold text-4xl my-3'>Event Description</h2>
 <div>
@@ -296,15 +282,23 @@ function EventDesc({ event }) {
               <div className=' bg-black/50 p-5 font-[var(--font-poppins)] '>
 
                 <h1 className='text-white font-bold pt-28 text-5xl text-center'>{eventName.eventName}</h1>
-                <div className='w-full flex justify-center items-center py-8'>
-                  <Button
-                    onClick={() => router.push('/register')}
-                    borderRadius="1.75rem"
-                    className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                  >
-                    Register
-                  </Button>
-                </div>
+                 <div className='w-full flex justify-center items-center py-8'>
+              
+                 <div className="max-w-lg mx-auto p-6 bg-black/40 rounded-2xl text-white text-center shadow-lg">
+  <h2 className="text-2xl md:text-3xl font-bold mb-3">
+    Registrations are Closed
+  </h2>
+  <p className="text-lg mb-1">
+    For further contact →
+  </p>
+  <p className="text-xl font-semibold">
+    Ishu Mishra
+  </p>
+  <p className="text-sm md:text-base opacity-80">
+    (General Secretary)
+  </p>
+</div>
+            </div>
                 <h2 className='text-white font-bold text-4xl my-3 text-center'>{eventName.subEvent1.name}</h2>
                 <h2 className='text-white font-bold text-4xl my-3'>Description</h2>
                 <div>

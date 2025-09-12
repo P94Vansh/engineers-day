@@ -5,6 +5,23 @@ import Input from "../../components/input";
 import Select from "../../components/select";
 import Info from "../../components/infobox";
 export default function Register() {
+    return(
+            <main className="flex min-h-screen items-center justify-center bg-gray-900 px-4">
+      <div className="max-w-md w-full bg-gray-800 shadow-lg rounded-2xl p-8 text-center border border-gray-700">
+        <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
+          Registrations are Closed
+        </h1>
+        <p className="text-gray-400 mb-6">
+          Thank you for your interest! Stay tuned for future events and updates.
+        </p>
+        <div className="mt-4 text-sm text-gray-300">
+          <p>For further contact:</p>
+          <p className="font-medium text-white">Ishu Mishra</p>
+          <p className="text-gray-400">(General Secretary)</p>
+        </div>
+      </div>
+    </main>
+    )
     const [infoTheme, setInfoTheme] = useState("suggest");
     const [infoText, setInfoText] = useState(" * fields are required");
     const [submitDisabled, setSubmitDisabled] = useState(false);

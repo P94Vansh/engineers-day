@@ -2,6 +2,7 @@ import dbConnect from "@/lib/dbConnect";
 import UserModel from "@/models/user";
 
 export async function POST(req) {
+  return Response.json({success:false,message:"Registrations are closed",status:400})
   try {
     await dbConnect();
 
